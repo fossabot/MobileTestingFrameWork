@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 114.277 s <<< FAILURE! - in TestSuite
+Verify_Places_near_by_is_displayed(Tests.LandingPageTest)  Time elapsed: 2.172 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 8, Size: 2
+	at Tests.LandingPageTest.Verify_Places_near_by_is_displayed(LandingPageTest.java:42)
+
+Verify_user_can_use_tourist_mode(Tests.LandingPageTest)  Time elapsed: 15.494 s  <<< FAILURE!
+java.lang.AssertionError: expected [TourSist] but found [Tourist]
+	at Tests.LandingPageTest.Verify_user_can_use_tourist_mode(LandingPageTest.java:28)
+

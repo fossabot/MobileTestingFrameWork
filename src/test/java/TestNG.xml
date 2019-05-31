@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite"  parallel="tests">
+    <!--<listeners> &lt;!&ndash; if you add listeners here you should remove @listener from test class to avoid duplication, better to remove it from xml &ndash;&gt;-->
+        <!--<listener class-name="Listeners.TestListener"/>-->
+    <!--</listeners>-->
+    <test name="Note5" thread-count="2">
+        <parameter name="deviceName" value="SM_N9208"/>
+        <parameter name="udid" value="0715f75124ea0934"/>
+        <parameter name="deviceId" value="192.168.30.142:5556"/>
+        <parameter name="platformVersion" value="7.0"/>
+        <parameter name="URL_" value="0.0.0.0"/>
+        <parameter name="Sport" value="4723"/>
+        <parameter name="bootStrap" value="4729"/>
+        <parameter name="sysPort" value="8240"/>
+        <parameter name="wdaPort" value="8240"/>
+        <parameter name="path" value="/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json"/>
+        <classes>
+            <class name="Tests.LandingPageTest"/>
+        </classes>
+    </test> <!-- NOTE 5 DEVICE -->
+</suite> <!-- Default Suite -->
