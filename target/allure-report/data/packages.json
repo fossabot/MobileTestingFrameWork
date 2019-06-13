@@ -1,0 +1,45 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Tests.LandingPageTest",
+    "children" : [ {
+      "name" : "Verify_user_can_use_tourist_mode",
+      "uid" : "356dab5fb2592bf0",
+      "parentUid" : "b93da23907b558094300ee12c6a1d4c6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1560423182473,
+        "stop" : 1560423195899,
+        "duration" : 13426
+      },
+      "flaky" : true,
+      "parameters" : [ "4724", "0.0.0.0", "4729", "192.168.30.19:5555", "SM_N950F", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "9", "8240", "988a1641434e36333130", "8240" ]
+    }, {
+      "name" : "Verify_user_can_use_local_mode",
+      "uid" : "9748fdde3e42d390",
+      "parentUid" : "b93da23907b558094300ee12c6a1d4c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1560423208486,
+        "stop" : 1560423226720,
+        "duration" : 18234
+      },
+      "flaky" : false,
+      "parameters" : [ "4724", "0.0.0.0", "4729", "192.168.30.19:5555", "SM_N950F", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "9", "8240", "988a1641434e36333130", "8240" ]
+    }, {
+      "name" : "Verify_Places_near_by_is_displayed",
+      "uid" : "49967d8d3485b1f4",
+      "parentUid" : "b93da23907b558094300ee12c6a1d4c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1560423239445,
+        "stop" : 1560423244756,
+        "duration" : 5311
+      },
+      "flaky" : false,
+      "parameters" : [ "4724", "0.0.0.0", "4729", "192.168.30.19:5555", "SM_N950F", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "9", "8240", "988a1641434e36333130", "8240" ]
+    } ],
+    "uid" : "Tests.LandingPageTest"
+  } ]
+}

@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WS-AMRKA",
+    "children" : [ {
+      "name" : "14528@WS-AMRKA.TestNG-tests-1(12)",
+      "children" : [ {
+        "name" : "Verify user can use local mode",
+        "uid" : "9748fdde3e42d390",
+        "parentUid" : "cf3160a170abecfddae77fa2c9034f5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1560423208486,
+          "stop" : 1560423226720,
+          "duration" : 18234
+        },
+        "flaky" : false,
+        "parameters" : [ "4724", "0.0.0.0", "4729", "192.168.30.19:5555", "SM_N950F", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "9", "8240", "988a1641434e36333130", "8240" ]
+      }, {
+        "name" : "Verify places neary by your location is visible",
+        "uid" : "49967d8d3485b1f4",
+        "parentUid" : "cf3160a170abecfddae77fa2c9034f5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1560423239445,
+          "stop" : 1560423244756,
+          "duration" : 5311
+        },
+        "flaky" : false,
+        "parameters" : [ "4724", "0.0.0.0", "4729", "192.168.30.19:5555", "SM_N950F", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "9", "8240", "988a1641434e36333130", "8240" ]
+      }, {
+        "name" : "Verify user can use tourist mode",
+        "uid" : "356dab5fb2592bf0",
+        "parentUid" : "cf3160a170abecfddae77fa2c9034f5e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1560423182473,
+          "stop" : 1560423195899,
+          "duration" : 13426
+        },
+        "flaky" : true,
+        "parameters" : [ "4724", "0.0.0.0", "4729", "192.168.30.19:5555", "SM_N950F", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "9", "8240", "988a1641434e36333130", "8240" ]
+      } ],
+      "uid" : "cf3160a170abecfddae77fa2c9034f5e"
+    } ],
+    "uid" : "0c13b425db404b67b8efc17c3908f540"
+  } ]
+}

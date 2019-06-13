@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,11 +100,6 @@
                       <a href="#" panel-name="suite-Default_Suite" class="show-methods failed suite-Default_Suite"> (show)</a> <!-- show-methods failed suite-Default_Suite -->
                     </span>
                     <div class="method-list-content failed suite-Default_Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="Tests.LandingPageTest" hash-for-method="Verify_Places_near_by_is_displayed">Verify_Places_near_by_is_displayed</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="Tests.LandingPageTest" hash-for-method="Verify_user_can_use_tourist_mode">Verify_user_can_use_tourist_mode</a> <!-- method navigator-link -->
@@ -119,6 +114,11 @@
                       <a href="#" panel-name="suite-Default_Suite" class="show-methods passed suite-Default_Suite"> (show)</a> <!-- show-methods passed suite-Default_Suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="Tests.LandingPageTest" hash-for-method="Verify_Places_near_by_is_displayed">Verify_Places_near_by_is_displayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="Tests.LandingPageTest" hash-for-method="Verify_user_can_use_local_mode">Verify_user_can_use_local_mode</a> <!-- method navigator-link -->
@@ -144,32 +144,11 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Verify_Places_near_by_is_displayed">
-                  </a> <!-- Verify_Places_near_by_is_displayed -->
-                  <span class="method-name">Verify_Places_near_by_is_displayed</span>
-                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index: 8, Size: 2
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
-	at java.util.ArrayList.get(ArrayList.java:433)
-	at io.appium.java_client.pagefactory.ElementListInterceptor.getObject(ElementListInterceptor.java:40)
-	at io.appium.java_client.pagefactory.interceptors.InterceptorOfAListOfElements.intercept(InterceptorOfAListOfElements.java:49)
-	at $java.util.ArrayList$$EnhancerByCGLIB$$b5855c01.get(&lt;generated&gt;)
-	at Pages.LandingPage.places_Near_by_are_displayed(LandingPage.java:125)
-	at Tests.LandingPageTest.Verify_Places_near_by_is_displayed(LandingPageTest.java:42)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="Verify_user_can_use_tourist_mode">
                   </a> <!-- Verify_user_can_use_tourist_mode -->
                   <span class="method-name">Verify_user_can_use_tourist_mode</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [TourSist] but found [Tourist]
-	at Pages.LandingPage.sign_as_Tourist(LandingPage.java:96)
+	at Pages.LandingPage.sign_as_Tourist(LandingPage.java:101)
 	at Tests.LandingPageTest.Verify_user_can_use_tourist_mode(LandingPageTest.java:28)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
@@ -189,6 +168,15 @@
               <span class="class-name">Tests.LandingPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Places_near_by_is_displayed">
+                  </a> <!-- Verify_Places_near_by_is_displayed -->
+                  <span class="method-name">Verify_Places_near_by_is_displayed</span>
+                  <em>
+(Verify places neary by your location is visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="Verify_user_can_use_local_mode">
@@ -212,14 +200,14 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Default Suite&quot; parallel=&quot;tests&quot;&gt;
   &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Note5&quot; parallel=&quot;tests&quot;&gt;
     &lt;parameter name=&quot;path&quot; value=&quot;/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json&quot;/&gt;
-    &lt;parameter name=&quot;Sport&quot; value=&quot;4723&quot;/&gt;
+    &lt;parameter name=&quot;Sport&quot; value=&quot;4724&quot;/&gt;
     &lt;parameter name=&quot;wdaPort&quot; value=&quot;8240&quot;/&gt;
-    &lt;parameter name=&quot;platformVersion&quot; value=&quot;7.0&quot;/&gt;
+    &lt;parameter name=&quot;platformVersion&quot; value=&quot;9&quot;/&gt;
     &lt;parameter name=&quot;URL_&quot; value=&quot;0.0.0.0&quot;/&gt;
-    &lt;parameter name=&quot;udid&quot; value=&quot;0715f75124ea0934&quot;/&gt;
+    &lt;parameter name=&quot;udid&quot; value=&quot;988a1641434e36333130&quot;/&gt;
     &lt;parameter name=&quot;bootStrap&quot; value=&quot;4729&quot;/&gt;
-    &lt;parameter name=&quot;deviceName&quot; value=&quot;SM_N9208&quot;/&gt;
-    &lt;parameter name=&quot;deviceId&quot; value=&quot;192.168.30.142:5556&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;SM_N950F&quot;/&gt;
+    &lt;parameter name=&quot;deviceId&quot; value=&quot;192.168.30.19:5555&quot;/&gt;
     &lt;parameter name=&quot;sysPort&quot; value=&quot;8240&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Tests.LandingPageTest&quot;/&gt;
@@ -264,22 +252,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Verify_user_can_use_tourist_mode')
+data.setCell(0, 1, 'Verify_user_can_use_local_mode')
 data.setCell(0, 2, 'Tests.LandingPageTest')
-data.setCell(0, 3, 14841);
+data.setCell(0, 3, 14565);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Verify_user_can_use_local_mode')
+data.setCell(1, 1, 'Verify_user_can_use_tourist_mode')
 data.setCell(1, 2, 'Tests.LandingPageTest')
-data.setCell(1, 3, 14672);
+data.setCell(1, 3, 12151);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'Verify_Places_near_by_is_displayed')
 data.setCell(2, 2, 'Tests.LandingPageTest')
-data.setCell(2, 3, 558);
+data.setCell(2, 3, 5346);
 window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-Default_Suite">
               </div> <!-- times-div-Default_Suite -->
             </div> <!-- times-div -->
@@ -307,36 +295,34 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.LandingPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(SM_N9208, 7.0, 0715f75124ea0934, 0.0.0.0, 4723, 192.168.30.142:5556, 8240, 4729, 8240, /Applications...)</span>
+                <span class="method-name">setUp(SM_N950F, 9, 988a1641434e36333130, 0.0.0.0, 4724, 192.168.30.19:5555, 8240, 4729, 8240, /Application...)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">Verify_Places_near_by_is_displayed</span>
-                <span class="method-start">27442 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(SM_N9208, 7.0, 0715f75124ea0934, 0.0.0.0, 4723, 192.168.30.142:5556, 8240, 4729, 8240, /Applications...)</span>
-                <span class="method-start">29633 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">Verify_user_can_use_tourist_mode</span>
-                <span class="method-start">55542 ms</span>
+                <span class="method-start">16484 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(SM_N9208, 7.0, 0715f75124ea0934, 0.0.0.0, 4723, 192.168.30.142:5556, 8240, 4729, 8240, /Applications...)</span>
-                <span class="method-start">71037 ms</span>
+                <span class="method-name">setUp(SM_N950F, 9, 988a1641434e36333130, 0.0.0.0, 4724, 192.168.30.19:5555, 8240, 4729, 8240, /Application...)</span>
+                <span class="method-start">29516 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Verify_user_can_use_local_mode</span>
-                <span class="method-start">96849 ms</span>
+                <span class="method-start">42183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(SM_N950F, 9, 988a1641434e36333130, 0.0.0.0, 4724, 192.168.30.19:5555, 8240, 4729, 8240, /Application...)</span>
+                <span class="method-start">56748 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify_Places_near_by_is_displayed</span>
+                <span class="method-start">69434 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">111546 ms</span>
+                <span class="method-start">74812 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

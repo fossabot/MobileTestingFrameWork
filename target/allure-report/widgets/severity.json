@@ -1,0 +1,31 @@
+[ {
+  "uid" : "356dab5fb2592bf0",
+  "name" : "Verify user can use tourist mode",
+  "time" : {
+    "start" : 1560423182473,
+    "stop" : 1560423195899,
+    "duration" : 13426
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9748fdde3e42d390",
+  "name" : "Verify user can use local mode",
+  "time" : {
+    "start" : 1560423208486,
+    "stop" : 1560423226720,
+    "duration" : 18234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49967d8d3485b1f4",
+  "name" : "Verify places neary by your location is visible",
+  "time" : {
+    "start" : 1560423239445,
+    "stop" : 1560423244756,
+    "duration" : 5311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

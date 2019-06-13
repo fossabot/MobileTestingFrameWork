@@ -6,6 +6,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.qameta.allure.Step;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -79,6 +80,10 @@ public class LandingPage extends BaseSetup{
     @AndroidFindBy(className = "android.widget.ImageView")   //INDEX 8 first image of restaurant
     private List <WebElement> placesNearBy;
 
+    @AndroidFindBy(xpath = "//android.widget.TextView[contains(@text, 'Skip')]")
+    private MobileElement SkipButton;
+
+
 
 
     @Step("Application will start and user will navigate as tourist")
@@ -121,8 +126,14 @@ public class LandingPage extends BaseSetup{
     }
 
     @Step("Application will start and user will navigate as local")
-    public void places_Near_by_are_displayed() {
-        Assert.assertEquals(placesNearBy.get(8).isDisplayed(),true);
+    public void places_Near_by_are_displayed() throws InterruptedException {
+        SkipButton.click();
+        getStartedButton.click();
+//        new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(placesNearBy.get(1)));
+      Thread.sleep(1000);
+//        Assert.assertEquals(placesNearBy.get(1).isDisplayed(),true);
+        Assert.assertEquals((driver.findElements(By.className("android.widget.TextView"))).get(1).getText(),"PLACES NEARBY");
+
     }
 
 

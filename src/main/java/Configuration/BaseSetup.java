@@ -7,7 +7,7 @@ import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
-import org.openqa.grid.common.exception.GridException;
+//import org.openqa.grid.common.exception.GridException;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
@@ -35,17 +35,18 @@ public class BaseSetup  {
         DesiredCapabilities dc = new DesiredCapabilities();
 
         // Mobile setup
-        dc.setCapability("deviceId", deviceId);
+//        dc.setCapability("deviceId", deviceId);
         dc.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
+        dc.setCapability(MobileCapabilityType.UDID, udid);
         dc.setCapability("platformName", "Android");
         dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, platformVersion);
-        dc.setCapability(AndroidMobileCapabilityType.SYSTEM_PORT, sysPort);
+//        dc.setCapability(AndroidMobileCapabilityType.SYSTEM_PORT, sysPort);
 
         dc.setCapability("appium:unlockType", "password");
-        dc.setCapability("appium:unlockKey", "@0122882435abA");
+        dc.setCapability("appium:unlockKey", "0122882435abA");
 //        dc.setCapability(MobileCapabilityType.UDID,udid);
-        dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2"); // Make the test fail after first tear down "BROWSER_TIMEOUT"
-        dc.setCapability("appium:uiautomator2ServerInstallTimeout", 8000);
+        dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiAutomator2"); // Make the test fail after first tear down "BROWSER_TIMEOUT"
+//        dc.setCapability("appium:uiautomator2ServerInstallTimeout", 8000);
 
 
         // Application setup
@@ -66,18 +67,18 @@ public class BaseSetup  {
                         .withArgument(Arg.ADDRESS,URL_)
                         .withArgument(Arg.PORT,Sport)
                         .withArgument(Arg.CALLBACKPORT,Sport)
-                        .withArgument(Arg.WDALOCALPORT,wdaPort)
+//                        .withArgument(Arg.WDALOCALPORT,wdaPort)
                         .withArgument(Arg.BootstrapPort,bootStrap)
 //                    .withArgument(Arg.NODECONFIG,path)  //uncomment this when use parallel test with grid
                         .withArgument(Arg.SESSIONOVERRIDE));
         service.start();
 
-        // uncomment the code below while using selenium grid
-        try {
-            waitForAppiumNodeToComeUp();
-        } catch (InterruptedException e) {
-            throw new GridException(e.getMessage(), e);
-        }
+//        // uncomment the code below while using selenium grid
+//        try {
+//            waitForAppiumNodeToComeUp();
+//        } catch (InterruptedException e) {
+//            throw new GridException(e.getMessage(), e);
+//        }
 
 //                Thread.sleep(10000); // Needed for appium server to wait for selenium grid to register the node
 

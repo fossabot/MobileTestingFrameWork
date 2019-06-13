@@ -1,0 +1,187 @@
+{
+  "uid" : "49967d8d3485b1f4",
+  "name" : "Verify places neary by your location is visible",
+  "fullName" : "Tests.LandingPageTest.Verify_Places_near_by_is_displayed",
+  "historyId" : "e0c163bed8e5abeb1991676de8882883",
+  "time" : {
+    "start" : 1560423239445,
+    "stop" : 1560423244756,
+    "duration" : 5311
+  },
+  "description" : "After logging as local user will see on landing page places near by menu",
+  "descriptionHtml" : "<p>After logging as local user will see on landing page places near by menu</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1560423226720,
+      "stop" : 1560423239439,
+      "duration" : 12719
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "After logging as local user will see on landing page places near by menu",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Application will start and user will navigate as local",
+      "time" : {
+        "start" : 1560423239477,
+        "stop" : 1560423244756,
+        "duration" : 5279
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "cleanUp",
+    "time" : {
+      "start" : 1560423244771,
+      "stop" : 1560423245456,
+      "duration" : 685
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.LandingPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.LandingPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify_Places_near_by_is_displayed"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Note5"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.LandingPageTest"
+  }, {
+    "name" : "host",
+    "value" : "WS-AMRKA"
+  }, {
+    "name" : "thread",
+    "value" : "14528@WS-AMRKA.TestNG-tests-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "As a user i want to see restaurant near by my location"
+  }, {
+    "name" : "epic",
+    "value" : "Landing page users features"
+  }, {
+    "name" : "feature",
+    "value" : "Select between local and tourist user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Sport",
+    "value" : "4724"
+  }, {
+    "name" : "URL_",
+    "value" : "0.0.0.0"
+  }, {
+    "name" : "bootStrap",
+    "value" : "4729"
+  }, {
+    "name" : "deviceId",
+    "value" : "192.168.30.19:5555"
+  }, {
+    "name" : "deviceName",
+    "value" : "SM_N950F"
+  }, {
+    "name" : "path",
+    "value" : "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json"
+  }, {
+    "name" : "platformVersion",
+    "value" : "9"
+  }, {
+    "name" : "sysPort",
+    "value" : "8240"
+  }, {
+    "name" : "udid",
+    "value" : "988a1641434e36333130"
+  }, {
+    "name" : "wdaPort",
+    "value" : "8240"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "95f22e7926153b8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1560422897512,
+        "stop" : 1560422902858,
+        "duration" : 5346
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "bbf9bdc616937b60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1560422897512,
+          "stop" : 1560422902858,
+          "duration" : 5346
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "49967d8d3485b1f4.json",
+  "parameterValues" : [ "4724", "0.0.0.0", "4729", "192.168.30.19:5555", "SM_N950F", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "9", "8240", "988a1641434e36333130", "8240" ]
+}

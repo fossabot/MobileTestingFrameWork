@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [TourSist] but found [Tourist]",
+      "children" : [ {
+        "name" : "Verify user can use tourist mode",
+        "uid" : "356dab5fb2592bf0",
+        "parentUid" : "88055ab598c85fd38a7e8e2fbc460069",
+        "status" : "failed",
+        "time" : {
+          "start" : 1560423182473,
+          "stop" : 1560423195899,
+          "duration" : 13426
+        },
+        "flaky" : true,
+        "parameters" : [ "4724", "0.0.0.0", "4729", "192.168.30.19:5555", "SM_N950F", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "9", "8240", "988a1641434e36333130", "8240" ]
+      } ],
+      "uid" : "88055ab598c85fd38a7e8e2fbc460069"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

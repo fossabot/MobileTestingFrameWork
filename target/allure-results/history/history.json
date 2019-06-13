@@ -1,0 +1,85 @@
+{
+  "e0c163bed8e5abeb1991676de8882883" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "49967d8d3485b1f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1560423239445,
+        "stop" : 1560423244756,
+        "duration" : 5311
+      }
+    }, {
+      "uid" : "bbf9bdc616937b60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1560422897512,
+        "stop" : 1560422902858,
+        "duration" : 5346
+      }
+    } ]
+  },
+  "78c801f75ead37d9f2029a5684b2bf29" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "356dab5fb2592bf0",
+      "status" : "failed",
+      "statusDetails" : "expected [TourSist] but found [Tourist]",
+      "time" : {
+        "start" : 1560423182473,
+        "stop" : 1560423195899,
+        "duration" : 13426
+      }
+    }, {
+      "uid" : "7df2310cea9fa5a2",
+      "status" : "failed",
+      "statusDetails" : "expected [TourSist] but found [Tourist]",
+      "time" : {
+        "start" : 1560422844622,
+        "stop" : 1560422857541,
+        "duration" : 12919
+      }
+    } ]
+  },
+  "1f1353128e0b65e85e343c3a5fee28a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "9748fdde3e42d390",
+      "status" : "passed",
+      "time" : {
+        "start" : 1560423208486,
+        "stop" : 1560423226720,
+        "duration" : 18234
+      }
+    }, {
+      "uid" : "82ecdf39c1d82e59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1560422870277,
+        "stop" : 1560422884826,
+        "duration" : 14549
+      }
+    } ]
+  }
+}

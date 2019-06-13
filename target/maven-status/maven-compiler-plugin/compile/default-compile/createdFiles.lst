@@ -1,6 +1,5 @@
 Configuration\ThreadLocalDriver.class
-Configuration\GridHub.class
-Pages\LandingPage.class
 Configuration\BaseSetup.class
 Pages\HomePage.class
 Configuration\Arg.class
+Pages\LandingPage.class
