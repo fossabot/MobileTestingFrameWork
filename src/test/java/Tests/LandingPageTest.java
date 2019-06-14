@@ -36,7 +36,7 @@ public class LandingPageTest extends BaseSetup {
         page.sign_as_Local();
     }
 
-    @Test(priority = 4 , description = "Verify places neary by your location is visible")
+    @Test(priority = 3 , description = "Verify places neary by your location is visible")
     @Story("As a user i want to see restaurant near by my location")
     @Description("After logging as local user will see on landing page places near by menu")
     public void Verify_Places_near_by_is_displayed () throws InterruptedException {

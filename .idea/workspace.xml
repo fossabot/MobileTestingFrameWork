@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae6baa95-64fb-436f-9d72-67477a04062c" name="Default Changelist" comment="" />
+    <list default="true" id="ae6baa95-64fb-436f-9d72-67477a04062c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,17 +38,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitattributes">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/HomePageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -113,7 +115,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/Listeners/TestListener.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Configuration/GridHub.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/LandingPage.java" />
         <option value="$PROJECT_DIR$/Reports/allure-results/environment.properties" />
@@ -124,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/test/resources/allure.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/allure.properties" />
         <option value="$PROJECT_DIR$/src/test/java/TestNG.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java" />
       </list>
     </option>
   </component>
@@ -182,6 +184,14 @@
               <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -212,7 +222,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560524441181" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560524467420" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Allure.Maven" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -288,7 +298,7 @@
       <workItem from="1560351060307" duration="5811000" />
       <workItem from="1560411206261" duration="7524000" />
       <workItem from="1560419253748" duration="7378000" />
-      <workItem from="1560522529968" duration="1594000" />
+      <workItem from="1560522529968" duration="2214000" />
     </task>
     <servers />
   </component>
@@ -325,7 +335,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49781000" />
+    <option name="totallyTimeSpent" value="50401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-288" y="-1088" width="1936" height="1096" extended-state="6" />
@@ -448,13 +458,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/target/allure-results/469bd4b3-a7df-4670-a787-ae17c352eff4-container.json" />
     <entry file="file://$PROJECT_DIR$/target/allure-results/history.json" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests/HomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -519,6 +522,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
