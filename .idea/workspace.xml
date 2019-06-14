@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="395">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -222,7 +222,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560524467420" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560525498836" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Allure.Maven" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -298,7 +298,7 @@
       <workItem from="1560351060307" duration="5811000" />
       <workItem from="1560411206261" duration="7524000" />
       <workItem from="1560419253748" duration="7378000" />
-      <workItem from="1560522529968" duration="2214000" />
+      <workItem from="1560522529968" duration="2814000" />
     </task>
     <servers />
   </component>
@@ -335,7 +335,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50401000" />
+    <option name="totallyTimeSpent" value="51001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-288" y="-1088" width="1936" height="1096" extended-state="6" />
@@ -525,8 +525,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="395">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
         </state>
       </provider>
     </entry>
