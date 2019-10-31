@@ -1,4 +1,4 @@
 "Status","Name","Duration in ms","Description"
-"passed","Tests.LandingPageTest.Verify_user_can_use_local_mode","18234","Application will be rest and user will select local mode"
-"passed","Tests.LandingPageTest.Verify_Places_near_by_is_displayed","5311","After logging as local user will see on landing page places near by menu"
-"failed","Tests.LandingPageTest.Verify_user_can_use_tourist_mode","13426","Application will be rest and user will select tourist mode"
+"passed","Tests.LandingPageTest.Verify_user_can_use_tourist_mode","8767","Application will be rest and user will select tourist mode"
+"passed","Tests.LandingPageTest.Verify_user_can_use_local_mode","11456","Application will be rest and user will select local mode"
+"passed","Tests.LandingPageTest.Verify_Places_near_by_is_displayed","3166","After logging as local user will see on landing page places near by menu"

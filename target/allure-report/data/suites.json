@@ -1,6 +1,5 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
     "name" : "Default Suite",
     "children" : [ {
@@ -9,45 +8,46 @@
         "name" : "Tests.LandingPageTest",
         "children" : [ {
           "name" : "Verify user can use tourist mode",
-          "uid" : "356dab5fb2592bf0",
+          "uid" : "e8e44a5fb9958fa4",
           "parentUid" : "cf1d78358532538f385b88e4ee53ce22",
-          "status" : "failed",
+          "status" : "passed",
           "time" : {
-            "start" : 1560423182473,
-            "stop" : 1560423195899,
-            "duration" : 13426
+            "start" : 1571518075586,
+            "stop" : 1571518084353,
+            "duration" : 8767
           },
-          "flaky" : true,
-          "parameters" : [ "4724", "0.0.0.0", "4729", "192.168.30.19:5555", "SM_N950F", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "9", "8240", "988a1641434e36333130", "8240" ]
+          "flaky" : false,
+          "parameters" : [ "4723", "0.0.0.0", "4729", "192.168.1.2:5555", "Nexus", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "10", "8240", "emulator-5554", "8240" ]
         }, {
           "name" : "Verify user can use local mode",
-          "uid" : "9748fdde3e42d390",
+          "uid" : "2cca3b0c6bf49831",
           "parentUid" : "cf1d78358532538f385b88e4ee53ce22",
           "status" : "passed",
           "time" : {
-            "start" : 1560423208486,
-            "stop" : 1560423226720,
-            "duration" : 18234
+            "start" : 1571518089057,
+            "stop" : 1571518100513,
+            "duration" : 11456
           },
           "flaky" : false,
-          "parameters" : [ "4724", "0.0.0.0", "4729", "192.168.30.19:5555", "SM_N950F", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "9", "8240", "988a1641434e36333130", "8240" ]
+          "parameters" : [ "4723", "0.0.0.0", "4729", "192.168.1.2:5555", "Nexus", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "10", "8240", "emulator-5554", "8240" ]
         }, {
           "name" : "Verify places neary by your location is visible",
-          "uid" : "49967d8d3485b1f4",
+          "uid" : "78321fe56270bc27",
           "parentUid" : "cf1d78358532538f385b88e4ee53ce22",
           "status" : "passed",
           "time" : {
-            "start" : 1560423239445,
-            "stop" : 1560423244756,
-            "duration" : 5311
+            "start" : 1571518105283,
+            "stop" : 1571518108449,
+            "duration" : 3166
           },
           "flaky" : false,
-          "parameters" : [ "4724", "0.0.0.0", "4729", "192.168.30.19:5555", "SM_N950F", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "9", "8240", "988a1641434e36333130", "8240" ]
+          "parameters" : [ "4723", "0.0.0.0", "4729", "192.168.1.2:5555", "Nexus", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "10", "8240", "emulator-5554", "8240" ]
         } ],
         "uid" : "cf1d78358532538f385b88e4ee53ce22"
       } ],
       "uid" : "de58f85535a53710f8cae00b310b3bf4"
     } ],
     "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
-  } ]
+  } ],
+  "name" : "suites"
 }

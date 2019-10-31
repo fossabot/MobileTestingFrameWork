@@ -4,10 +4,10 @@
     "uid" : "780fb9bb3ae9fc6e519361e41c1b3d76",
     "name" : "Landing page users features",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }

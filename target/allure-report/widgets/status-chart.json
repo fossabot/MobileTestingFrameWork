@@ -1,31 +1,31 @@
 [ {
-  "uid" : "9748fdde3e42d390",
-  "name" : "Verify user can use local mode",
-  "time" : {
-    "start" : 1560423208486,
-    "stop" : 1560423226720,
-    "duration" : 18234
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "49967d8d3485b1f4",
-  "name" : "Verify places neary by your location is visible",
-  "time" : {
-    "start" : 1560423239445,
-    "stop" : 1560423244756,
-    "duration" : 5311
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "356dab5fb2592bf0",
+  "uid" : "e8e44a5fb9958fa4",
   "name" : "Verify user can use tourist mode",
   "time" : {
-    "start" : 1560423182473,
-    "stop" : 1560423195899,
-    "duration" : 13426
+    "start" : 1571518075586,
+    "stop" : 1571518084353,
+    "duration" : 8767
   },
-  "status" : "failed",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cca3b0c6bf49831",
+  "name" : "Verify user can use local mode",
+  "time" : {
+    "start" : 1571518089057,
+    "stop" : 1571518100513,
+    "duration" : 11456
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78321fe56270bc27",
+  "name" : "Verify places neary by your location is visible",
+  "time" : {
+    "start" : 1571518105283,
+    "stop" : 1571518108449,
+    "duration" : 3166
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

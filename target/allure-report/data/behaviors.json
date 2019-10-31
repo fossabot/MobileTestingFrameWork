@@ -1,6 +1,5 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
     "name" : "Landing page users features",
     "children" : [ {
@@ -9,49 +8,50 @@
         "name" : "As a user i want to be able to log in as tourist",
         "children" : [ {
           "name" : "Verify user can use tourist mode",
-          "uid" : "356dab5fb2592bf0",
-          "parentUid" : "39c6d2ff6890401b1ba2ec9351450fb1",
-          "status" : "failed",
-          "time" : {
-            "start" : 1560423182473,
-            "stop" : 1560423195899,
-            "duration" : 13426
-          },
-          "flaky" : true,
-          "parameters" : [ "4724", "0.0.0.0", "4729", "192.168.30.19:5555", "SM_N950F", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "9", "8240", "988a1641434e36333130", "8240" ]
-        }, {
-          "name" : "Verify user can use local mode",
-          "uid" : "9748fdde3e42d390",
+          "uid" : "e8e44a5fb9958fa4",
           "parentUid" : "39c6d2ff6890401b1ba2ec9351450fb1",
           "status" : "passed",
           "time" : {
-            "start" : 1560423208486,
-            "stop" : 1560423226720,
-            "duration" : 18234
+            "start" : 1571518075586,
+            "stop" : 1571518084353,
+            "duration" : 8767
           },
           "flaky" : false,
-          "parameters" : [ "4724", "0.0.0.0", "4729", "192.168.30.19:5555", "SM_N950F", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "9", "8240", "988a1641434e36333130", "8240" ]
+          "parameters" : [ "4723", "0.0.0.0", "4729", "192.168.1.2:5555", "Nexus", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "10", "8240", "emulator-5554", "8240" ]
+        }, {
+          "name" : "Verify user can use local mode",
+          "uid" : "2cca3b0c6bf49831",
+          "parentUid" : "39c6d2ff6890401b1ba2ec9351450fb1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1571518089057,
+            "stop" : 1571518100513,
+            "duration" : 11456
+          },
+          "flaky" : false,
+          "parameters" : [ "4723", "0.0.0.0", "4729", "192.168.1.2:5555", "Nexus", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "10", "8240", "emulator-5554", "8240" ]
         } ],
         "uid" : "39c6d2ff6890401b1ba2ec9351450fb1"
       }, {
         "name" : "As a user i want to see restaurant near by my location",
         "children" : [ {
           "name" : "Verify places neary by your location is visible",
-          "uid" : "49967d8d3485b1f4",
+          "uid" : "78321fe56270bc27",
           "parentUid" : "5a8d17dcc71b5fbb72d13b2e6705b46b",
           "status" : "passed",
           "time" : {
-            "start" : 1560423239445,
-            "stop" : 1560423244756,
-            "duration" : 5311
+            "start" : 1571518105283,
+            "stop" : 1571518108449,
+            "duration" : 3166
           },
           "flaky" : false,
-          "parameters" : [ "4724", "0.0.0.0", "4729", "192.168.30.19:5555", "SM_N950F", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "9", "8240", "988a1641434e36333130", "8240" ]
+          "parameters" : [ "4723", "0.0.0.0", "4729", "192.168.1.2:5555", "Nexus", "/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json", "10", "8240", "emulator-5554", "8240" ]
         } ],
         "uid" : "5a8d17dcc71b5fbb72d13b2e6705b46b"
       } ],
       "uid" : "e6d3758865cc6320bd5926cee326f0af"
     } ],
     "uid" : "780fb9bb3ae9fc6e519361e41c1b3d76"
-  } ]
+  } ],
+  "name" : "behaviors"
 }

@@ -1,8 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 76.95 s <<< FAILURE! - in TestSuite
-Verify_user_can_use_tourist_mode(Tests.LandingPageTest)  Time elapsed: 12.404 s  <<< FAILURE!
-java.lang.AssertionError: expected [TourSist] but found [Tourist]
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 67.466 s <<< FAILURE! - in TestSuite
+Verify_user_can_use_tourist_mode(Tests.LandingPageTest)  Time elapsed: 4.161 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error in building: Ill-formed XML document (missing opening tag for android.widget.ImageView). Try changing the 'normalizeTagNames' driver setting to 'true' in order to workaround the problem.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-31-generic', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.sfdmobile.MainActivity, appPackage: com.sarajevo.food.dictionary, autoGrantPermissions: true, automationName: uiAutomator2, avd: Pixel, clearSystemFiles: true, databaseEnabled: false, desired: {appActivity: com.sfdmobile.MainActivity, appPackage: com.sarajevo.food.dictionary, autoGrantPermissions: true, automationName: uiAutomator2, avd: Pixel, clearSystemFiles: true, deviceName: Pixel, platformName: android, platformVersion: 10, udid: emulator-5556, uiautomator2ServerInstallTimeout: 8000, unlockKey: 0122882435abA, unlockType: password}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5556, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5556, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 84, takesScreenshot: true, udid: emulator-5556, uiautomator2ServerInstallTimeout: 8000, unlockKey: 0122882435abA, unlockType: password, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 94bae10f-5d74-494f-a400-777ee1f29d70
+*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text, 'Next')]}
+	at Tests.LandingPageTest.Verify_user_can_use_tourist_mode(LandingPageTest.java:28)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Error in building: Ill-formed XML document (missing opening tag for android.widget.ImageView). Try changing the 'normalizeTagNames' driver setting to 'true' in order to workaround the problem.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-31-generic', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.sfdmobile.MainActivity, appPackage: com.sarajevo.food.dictionary, autoGrantPermissions: true, automationName: uiAutomator2, avd: Pixel, clearSystemFiles: true, databaseEnabled: false, desired: {appActivity: com.sfdmobile.MainActivity, appPackage: com.sarajevo.food.dictionary, autoGrantPermissions: true, automationName: uiAutomator2, avd: Pixel, clearSystemFiles: true, deviceName: Pixel, platformName: android, platformVersion: 10, udid: emulator-5556, uiautomator2ServerInstallTimeout: 8000, unlockKey: 0122882435abA, unlockType: password}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5556, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5556, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 84, takesScreenshot: true, udid: emulator-5556, uiautomator2ServerInstallTimeout: 8000, unlockKey: 0122882435abA, unlockType: password, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 94bae10f-5d74-494f-a400-777ee1f29d70
+*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text, 'Next')]}
 	at Tests.LandingPageTest.Verify_user_can_use_tourist_mode(LandingPageTest.java:28)
 
