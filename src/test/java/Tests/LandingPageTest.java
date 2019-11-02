@@ -12,7 +12,7 @@ import java.io.IOException;
 
 
 @Listeners({TestListener.class})      //naming package Listeners make conflict with junit package, you will have to import TestListener manually
-                                      // without this annotation attachments will not appear.
+                                      // without this annotation attachments will not appear
 @Epic("Landing page users features")
 @Feature("Select between local and tourist user")
 public class LandingPageTest extends BaseSetup {
