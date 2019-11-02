@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_Suite">
-              <span class="suite-name border-failed">Default Suite</span>
+              <span class="suite-name border-passed">Default Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_Suite" class="hide-methods failed suite-Default_Suite"> (hide)</a> <!-- hide-methods failed suite-Default_Suite -->
-                      <a href="#" panel-name="suite-Default_Suite" class="show-methods failed suite-Default_Suite"> (show)</a> <!-- show-methods failed suite-Default_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Default_Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="Tests.LandingPageTest" hash-for-method="Verify_user_can_use_tourist_mode">Verify_user_can_use_tourist_mode</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -124,6 +110,11 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="Tests.LandingPageTest" hash-for-method="Verify_user_can_use_local_mode">Verify_user_can_use_local_mode</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="Tests.LandingPageTest" hash-for-method="Verify_user_can_use_tourist_mode">Verify_user_can_use_tourist_mode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Default_Suite -->
                   </li>
                 </ul>
@@ -136,90 +127,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_Suite" class="panel Default_Suite">
-          <div class="suite-Default_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Tests.LandingPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verify_user_can_use_tourist_mode">
-                  </a> <!-- Verify_user_can_use_tourist_mode -->
-                  <span class="method-name">Verify_user_can_use_tourist_mode</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error in building: Ill-formed XML document (missing opening tag for android.widget.ImageView). Try changing the &apos;normalizeTagNames&apos; driver setting to &apos;true&apos; in order to workaround the problem.
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-31-generic&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.sfdmobile.MainActivity, appPackage: com.sarajevo.food.dictionary, autoGrantPermissions: true, automationName: uiAutomator2, avd: Pixel, clearSystemFiles: true, databaseEnabled: false, desired: {appActivity: com.sfdmobile.MainActivity, appPackage: com.sarajevo.food.dictionary, autoGrantPermissions: true, automationName: uiAutomator2, avd: Pixel, clearSystemFiles: true, deviceName: Pixel, platformName: android, platformVersion: 10, udid: emulator-5556, uiautomator2ServerInstallTimeout: 8000, unlockKey: 0122882435abA, unlockType: password}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5556, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5556, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 84, takesScreenshot: true, udid: emulator-5556, uiautomator2ServerInstallTimeout: 8000, unlockKey: 0122882435abA, unlockType: password, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
-Session ID: 94bae10f-5d74-494f-a400-777ee1f29d70
-*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text, &apos;Next&apos;)]}
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:192)
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
-	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
-	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
-	at Pages.LandingPage.sign_as_Tourist(LandingPage.java:93)
-	at Tests.LandingPageTest.Verify_user_can_use_tourist_mode(LandingPageTest.java:28)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error in building: Ill-formed XML document (missing opening tag for android.widget.ImageView). Try changing the &apos;normalizeTagNames&apos; driver setting to &apos;true&apos; in order to workaround the problem.
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-31-generic&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.sfdmobile.MainActivity, appPackage: com.sarajevo.food.dictionary, autoGrantPermissions: true, automationName: uiAutomator2, avd: Pixel, clearSystemFiles: true, databaseEnabled: false, desired: {appActivity: com.sfdmobile.MainActivity, appPackage: com.sarajevo.food.dictionary, autoGrantPermissions: true, automationName: uiAutomator2, avd: Pixel, clearSystemFiles: true, deviceName: Pixel, platformName: android, platformVersion: 10, udid: emulator-5556, uiautomator2ServerInstallTimeout: 8000, unlockKey: 0122882435abA, unlockType: password}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5556, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5556, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 84, takesScreenshot: true, udid: emulator-5556, uiautomator2ServerInstallTimeout: 8000, unlockKey: 0122882435abA, unlockType: password, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
-Session ID: 94bae10f-5d74-494f-a400-777ee1f29d70
-*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text, &apos;Next&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
-	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at io.appium.java_client.pagefactory.bys.builder.ByChained.lambda$0(ByChained.java:38)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:72)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
-	... 31 more
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Verify user can use tourist mode)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_Suite-class-failed -->
           <div class="suite-Default_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -244,6 +151,15 @@ Session ID: 94bae10f-5d74-494f-a400-777ee1f29d70
 (Verify user can use local mode)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_user_can_use_tourist_mode">
+                  </a> <!-- Verify_user_can_use_tourist_mode -->
+                  <span class="method-name">Verify_user_can_use_tourist_mode</span>
+                  <em>
+(Verify user can use tourist mode)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_Suite-class-passed -->
         </div> <!-- panel Default_Suite -->
@@ -260,12 +176,12 @@ Session ID: 94bae10f-5d74-494f-a400-777ee1f29d70
     &lt;parameter name=&quot;path&quot; value=&quot;/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json&quot;/&gt;
     &lt;parameter name=&quot;Sport&quot; value=&quot;4723&quot;/&gt;
     &lt;parameter name=&quot;wdaPort&quot; value=&quot;8240&quot;/&gt;
-    &lt;parameter name=&quot;platformVersion&quot; value=&quot;10&quot;/&gt;
+    &lt;parameter name=&quot;platformVersion&quot; value=&quot;9&quot;/&gt;
     &lt;parameter name=&quot;URL_&quot; value=&quot;127.0.0.1&quot;/&gt;
-    &lt;parameter name=&quot;udid&quot; value=&quot;emulator-5554&quot;/&gt;
-    &lt;parameter name=&quot;bootStrap&quot; value=&quot;4729&quot;/&gt;
-    &lt;parameter name=&quot;deviceName&quot; value=&quot;Nexus&quot;/&gt;
-    &lt;parameter name=&quot;deviceId&quot; value=&quot;192.168.1.2:5555&quot;/&gt;
+    &lt;parameter name=&quot;udid&quot; value=&quot;RF8M82EDL8Y&quot;/&gt;
+    &lt;parameter name=&quot;bootStrap&quot; value=&quot;100&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;SM-N975F&quot;/&gt;
+    &lt;parameter name=&quot;deviceId&quot; value=&quot;0.0.0.0:8080&quot;/&gt;
     &lt;parameter name=&quot;sysPort&quot; value=&quot;8200&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Tests.LandingPageTest&quot;/&gt;
@@ -278,10 +194,10 @@ Session ID: 94bae10f-5d74-494f-a400-777ee1f29d70
     &lt;parameter name=&quot;platformVersion&quot; value=&quot;10&quot;/&gt;
     &lt;parameter name=&quot;URL_&quot; value=&quot;127.0.0.1&quot;/&gt;
     &lt;parameter name=&quot;udid&quot; value=&quot;emulator-5556&quot;/&gt;
-    &lt;parameter name=&quot;bootStrap&quot; value=&quot;4730&quot;/&gt;
+    &lt;parameter name=&quot;bootStrap&quot; value=&quot;200&quot;/&gt;
     &lt;parameter name=&quot;deviceName&quot; value=&quot;Pixel&quot;/&gt;
     &lt;parameter name=&quot;deviceId&quot; value=&quot;192.168.1.2:5556&quot;/&gt;
-    &lt;parameter name=&quot;sysPort&quot; value=&quot;2801&quot;/&gt;
+    &lt;parameter name=&quot;sysPort&quot; value=&quot;8201&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Tests.LandingPageTest&quot;/&gt;
     &lt;/classes&gt;
@@ -330,20 +246,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Verify_user_can_use_local_mode')
 data.setCell(0, 2, 'Tests.LandingPageTest')
-data.setCell(0, 3, 14610);
+data.setCell(0, 3, 13898);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Verify_Places_near_by_is_displayed')
+data.setCell(1, 1, 'Verify_user_can_use_tourist_mode')
 data.setCell(1, 2, 'Tests.LandingPageTest')
-data.setCell(1, 3, 5354);
+data.setCell(1, 3, 12353);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Verify_user_can_use_tourist_mode')
+data.setCell(2, 1, 'Verify_Places_near_by_is_displayed')
 data.setCell(2, 2, 'Tests.LandingPageTest')
-data.setCell(2, 3, 3059);
+data.setCell(2, 3, 5662);
 window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
               <div id="times-div-Default_Suite">
               </div> <!-- times-div-Default_Suite -->
             </div> <!-- times-div -->
@@ -371,44 +287,62 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.LandingPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(Pixel, 10, emulator-5556, 127.0.0.1, 4724, 192.168.1.2:5556, 2801, 4730, 8250, /Applications/Appium....)</span>
+                <span class="method-name">setUp(SM-N975F, 9, RF8M82EDL8Y, 127.0.0.1, 4723, 0.0.0.0:8080, 8200, 100, 8240, /Applications/Appium.app/C...)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(Nexus, 10, emulator-5554, 127.0.0.1, 4723, 192.168.1.2:5555, 8200, 4729, 8240, /Applications/Appium....)</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(Pixel, 10, emulator-5556, 127.0.0.1, 4724, 192.168.1.2:5556, 8201, 200, 8250, /Applications/Appium.a...)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">Verify_user_can_use_tourist_mode</span>
-                <span class="method-start">15525 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Verify_user_can_use_tourist_mode</span>
-                <span class="method-start">15849 ms</span>
+                <span class="method-start">729 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(Pixel, 10, emulator-5556, 127.0.0.1, 4724, 192.168.1.2:5556, 2801, 4730, 8250, /Applications/Appium....)</span>
-                <span class="method-start">20022 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(Pixel, 10, emulator-5556, 127.0.0.1, 4724, 192.168.1.2:5556, 8201, 200, 8250, /Applications/Appium.a...)</span>
+                <span class="method-start">745 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Verify_user_can_use_local_mode</span>
-                <span class="method-start">32795 ms</span>
+                <span class="method-start">1532 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(Pixel, 10, emulator-5556, 127.0.0.1, 4724, 192.168.1.2:5556, 2801, 4730, 8250, /Applications/Appium....)</span>
-                <span class="method-start">47409 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(Pixel, 10, emulator-5556, 127.0.0.1, 4724, 192.168.1.2:5556, 8201, 200, 8250, /Applications/Appium.a...)</span>
+                <span class="method-start">1535 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Verify_Places_near_by_is_displayed</span>
-                <span class="method-start">60156 ms</span>
+                <span class="method-start">1650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_user_can_use_tourist_mode</span>
+                <span class="method-start">9962 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(SM-N975F, 9, RF8M82EDL8Y, 127.0.0.1, 4723, 0.0.0.0:8080, 8200, 100, 8240, /Applications/Appium.app/C...)</span>
+                <span class="method-start">22319 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify_user_can_use_local_mode</span>
+                <span class="method-start">30939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(SM-N975F, 9, RF8M82EDL8Y, 127.0.0.1, 4723, 0.0.0.0:8080, 8200, 100, 8240, /Applications/Appium.app/C...)</span>
+                <span class="method-start">44840 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify_Places_near_by_is_displayed</span>
+                <span class="method-start">53332 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">65519 ms</span>
+                <span class="method-start">59035 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,9 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae6baa95-64fb-436f-9d72-67477a04062c" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
+    <list default="true" id="ae6baa95-64fb-436f-9d72-67477a04062c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/bin/allure" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/bin/allure" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/bin/allure.bat" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/bin/allure.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/config/allure-cucumber.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/config/allure-cucumber.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/config/allure-junit.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/config/allure-junit.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/config/allure.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/config/allure.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure-commandline-2.8.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure-commandline-2.8.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure-generator-2.8.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure-generator-2.8.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure-plugin-api-2.8.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure-plugin-api-2.8.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure1-model-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure1-model-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure2-model-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure2-model-api-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure2-model-jackson-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure2-model-jackson-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure2-model-pojo-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure2-model-pojo-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-beanutils-1.9.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-codec-1.10.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-collections-3.2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-collections4-4.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-collections4-4.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-io-2.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-io-2.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-lang3-3.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-lang3-3.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-logging-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-text-1.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-text-1.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/config/jetty-logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/config/jetty-logging.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/config/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/config/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/flexmark-0.34.8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/flexmark-0.34.8.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/flexmark-util-0.34.8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/flexmark-util-0.34.8.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/freemarker-2.3.28.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/freemarker-2.3.28.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/httpclient-4.5.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/httpclient-4.5.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/httpcore-4.4.10.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/httpcore-4.4.10.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-annotations-2.9.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-core-2.9.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-core-2.9.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-databind-2.9.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-databind-2.9.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-dataformat-xml-2.9.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-dataformat-xml-2.9.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-dataformat-yaml-2.9.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-dataformat-yaml-2.9.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-module-jaxb-annotations-2.9.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-module-jaxb-annotations-2.9.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jaxb-api-2.3.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jaxb-api-2.3.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jaxb-utils-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jaxb-utils-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jcommander-1.72.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jcommander-1.72.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-http-9.4.11.v20180605.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-http-9.4.11.v20180605.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-io-9.4.11.v20180605.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-io-9.4.11.v20180605.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-server-9.4.11.v20180605.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-server-9.4.11.v20180605.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-util-9.4.11.v20180605.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-util-9.4.11.v20180605.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/log4j-1.2.17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/opencsv-4.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/opencsv-4.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/properties-2.0.RC5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/properties-2.0.RC5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/slf4j-api-1.7.25.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/slf4j-log4j12-1.7.25.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/slf4j-log4j12-1.7.25.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/snakeyaml-1.18.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/snakeyaml-1.18.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/stax2-api-3.1.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/stax2-api-3.1.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/tika-core-1.18.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/tika-core-1.18.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/woodstox-core-5.0.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/woodstox-core-5.0.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/behaviors-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/behaviors-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/behaviors-plugin/plugin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/behaviors-plugin/plugin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/behaviors-plugin/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/behaviors-plugin/static/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/custom-logo-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/custom-logo-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/custom-logo-plugin/static/custom-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/custom-logo-plugin/static/custom-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/custom-logo-plugin/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/custom-logo-plugin/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/jira-plugin-2.8.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/jira-plugin-2.8.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/allure-jira-commons-2.8.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/allure-jira-commons-2.8.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/converter-jackson-2.4.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/converter-jackson-2.4.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/jackson-annotations-2.9.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/jackson-core-2.9.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/jackson-core-2.9.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/jackson-databind-2.9.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/jackson-databind-2.9.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/okhttp-3.10.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/okhttp-3.10.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/okio-1.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/okio-1.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/retrofit-2.4.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/retrofit-2.4.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/junit-xml-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/junit-xml-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/junit-xml-plugin/junit-xml-plugin-2.8.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/junit-xml-plugin/junit-xml-plugin-2.8.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/packages-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/packages-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/packages-plugin/plugin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/packages-plugin/plugin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/packages-plugin/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/packages-plugin/static/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/screen-diff-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/screen-diff-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/screen-diff-plugin/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/screen-diff-plugin/static/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/screen-diff-plugin/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/screen-diff-plugin/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/trx-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/trx-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/trx-plugin/trx-plugin-2.8.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/trx-plugin/trx-plugin-2.8.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xctest-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xctest-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xctest-plugin/xctest-plugin-2.8.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xctest-plugin/xctest-plugin-2.8.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/allure-jira-commons-2.8.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/allure-jira-commons-2.8.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/converter-jackson-2.4.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/converter-jackson-2.4.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/jackson-annotations-2.9.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/jackson-core-2.9.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/jackson-core-2.9.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/jackson-databind-2.9.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/jackson-databind-2.9.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/okhttp-3.10.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/okhttp-3.10.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/okio-1.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/okio-1.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/retrofit-2.4.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/retrofit-2.4.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/xray-plugin-2.8.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/xray-plugin-2.8.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xunit-xml-plugin/allure-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xunit-xml-plugin/allure-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xunit-xml-plugin/xunit-xml-plugin-2.8.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xunit-xml-plugin/xunit-xml-plugin-2.8.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileTestingFrameWork.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Configuration/Arg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Configuration/Arg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Configuration/GridHub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Configuration/GridHub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Configuration/ThreadLocalDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Configuration/ThreadLocalDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Listeners/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,220 +138,39 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestNG.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitattributes">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1921">
-              <caret line="113" column="10" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/allure-report/history/history.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/allure-results/allure.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/allure-results/environment.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/allure-results/history/history.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/site/allure-maven.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/Listeners/TestListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Configuration/GridHub.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/LandingPage.java" />
-        <option value="$PROJECT_DIR$/Reports/allure-results/environment.properties" />
-        <option value="$PROJECT_DIR$/target/allure-results/categories.json" />
-        <option value="$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/target/allure-results/environment.properties" />
-        <option value="$PROJECT_DIR$/src/test/resources/allure.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/allure.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/TestNG.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-288" />
-    <option name="y" value="-1088" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
-  </component>
+  <component name="ProjectId" id="1RpWer7nf4NFG1uXfNLYxVfzCio" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="allure-report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="allure-results" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560527640248" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Allure.Maven" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../stf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20689656" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\amrka\IdeaProjects\MobileTestingFrameWork\Reports\allure-results" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target/allure-results" />
       <recent name="C:\Users\amrka\IdeaProjects\MobileTestingFrameWork\target\allure-results" />
       <recent name="C:\Users\amrka\IdeaProjects\MobileTestingFrameWork\src\test" />
       <recent name="C:\Users\amrka\IdeaProjects\MobileTestingFrameWork\src\test\java" />
       <recent name="C:\Users\amrka\IdeaProjects\MobileTestingFrameWork\src\main\resources" />
-      <recent name="C:\Users\amrka\IdeaProjects\MobileTestingFrameWork\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target/allure-results" />
+      <recent name="C:\Users\amrka\IdeaProjects\MobileTestingFrameWork\Reports\allure-results" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -253,8 +186,10 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ExecuteFrameWork" type="TestNG" factoryName="TestNG">
+    <configuration name="ExecuteFrameWork" type="TestNG">
       <module name="MobileTestingFrameWork" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="/usr/lib/jvm/jdk1.8.0_221/jre" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestNG.xml" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -297,322 +232,57 @@
       <workItem from="1560411206261" duration="7524000" />
       <workItem from="1560419253748" duration="7378000" />
       <workItem from="1560522529968" duration="3843000" />
+      <workItem from="1561842500913" duration="813000" />
+      <workItem from="1561848069231" duration="3784000" />
+      <workItem from="1561892945482" duration="7773000" />
+      <workItem from="1561903063714" duration="7769000" />
+      <workItem from="1561913008154" duration="1557000" />
+      <workItem from="1561915135886" duration="290000" />
+      <workItem from="1561915455938" duration="597000" />
+      <workItem from="1570364621396" duration="3644000" />
+      <workItem from="1570369381219" duration="939000" />
+      <workItem from="1570370479146" duration="548000" />
+      <workItem from="1570371066243" duration="425000" />
+      <workItem from="1570378719674" duration="1143000" />
+      <workItem from="1571339887236" duration="19000" />
+      <workItem from="1571344545978" duration="20000" />
+      <workItem from="1571486474813" duration="1970000" />
+      <workItem from="1571488478242" duration="458000" />
+      <workItem from="1571489110877" duration="621000" />
+      <workItem from="1571490616476" duration="134000" />
+      <workItem from="1571490839326" duration="729000" />
+      <workItem from="1571495843484" duration="24000" />
+      <workItem from="1571496056761" duration="2930000" />
+      <workItem from="1571509232289" duration="650000" />
+      <workItem from="1571509893943" duration="207000" />
+      <workItem from="1571510179398" duration="750000" />
+      <workItem from="1571510952693" duration="27000" />
+      <workItem from="1571511004449" duration="80000" />
+      <workItem from="1571511482404" duration="442000" />
+      <workItem from="1571512551857" duration="13738000" />
+      <workItem from="1571567491553" duration="6091000" />
+      <workItem from="1572557656403" duration="990000" />
+      <workItem from="1572637537810" duration="1980000" />
+      <workItem from="1572655227446" duration="20000" />
+      <workItem from="1572655968961" duration="606000" />
+      <workItem from="1572695697574" duration="3637000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="ExecuteFrameWork - 2019.06.13 at 12h 19m 51s.xml">
-      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.06.13 at 12h 24m 16s.xml">
-      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.06.13 at 12h 26m 18s.xml">
-      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.06.13 at 12h 29m 20s.xml">
-      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.06.13 at 12h 54m 06s.xml">
-      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.06.13 at 13h 03m 31s.xml">
-      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.06.13 at 13h 09m 54s.xml">
-      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.06.14 at 16h 30m 20s.xml">
-      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.06.14 at 16h 31m 05s.xml">
-      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.06.14 at 16h 31m 57s.xml">
-      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52030000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-288" y="-1088" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24466951" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43970895" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" order="9" weight="0.32952183" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.46361747" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3295082" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.090618335" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Configuration/Arg.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0-sources.jar!/io/appium/java_client/remote/AppiumCommandExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3009">
-          <caret line="238" selection-start-line="238" selection-end-line="238" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0-sources.jar!/io/appium/java_client/AppiumDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Configuration/ThreadLocalDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Listeners/TestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reports/allure-results/environment.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/2019-06-13T10-34-05_623-jvmRun1.dump" />
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/2019-06-13T10-34-05_623-jvmRun1.dumpstream" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LandingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="130" column="33" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/categories.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Configuration/GridHub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/allure.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/469bd4b3-a7df-4670-a787-ae17c352eff4-container.json" />
-    <entry file="file://$PROJECT_DIR$/target/allure-results/history.json" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/HomePageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="113" column="10" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-report/history/history.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/allure.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/environment.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/site/allure-maven.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/history/history.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/allure.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.20689656" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring|MobileTestingFrameWork</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.20689656" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: cglib:cglib:3.2.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

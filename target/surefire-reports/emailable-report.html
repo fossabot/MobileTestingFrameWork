@@ -9,77 +9,12 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default Suite</th></tr>
-<tr><td><a href="#t0">Pixel</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">65,589</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Nexus</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">59,028</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Pixel &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Tests.LandingPageTest</td><td><a href="#m0">Verify_user_can_use_tourist_mode</a></td><td rowspan="1">1571526868236</td><td rowspan="1">3059</td></tr><tr><th colspan="4">Pixel &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Tests.LandingPageTest</td><td><a href="#m1">Verify_Places_near_by_is_displayed</a></td><td rowspan="1">1571526912543</td><td rowspan="1">5354</td></tr><tr class="passedeven"><td><a href="#m2">Verify_user_can_use_local_mode</a></td><td rowspan="1">1571526885182</td><td rowspan="1">14610</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Nexus &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Tests.LandingPageTest</td><td><a href="#m0">Verify_Places_near_by_is_displayed</a></td><td rowspan="1">1572706461556</td><td rowspan="1">5662</td></tr><tr class="passedeven"><td><a href="#m1">Verify_user_can_use_local_mode</a></td><td rowspan="1">1572706439163</td><td rowspan="1">13898</td></tr><tr class="passedeven"><td><a href="#m2">Verify_user_can_use_tourist_mode</a></td><td rowspan="1">1572706418186</td><td rowspan="1">12353</td></tr></tbody>
 </table>
-<h2>Pixel</h2><h3 id="m0">Tests.LandingPageTest#Verify_user_can_use_tourist_mode</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error in building: Ill-formed XML document (missing opening tag for android.widget.ImageView). Try changing the &apos;normalizeTagNames&apos; driver setting to &apos;true&apos; in order to workaround the problem.
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-31-generic&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.sfdmobile.MainActivity, appPackage: com.sarajevo.food.dictionary, autoGrantPermissions: true, automationName: uiAutomator2, avd: Pixel, clearSystemFiles: true, databaseEnabled: false, desired: {appActivity: com.sfdmobile.MainActivity, appPackage: com.sarajevo.food.dictionary, autoGrantPermissions: true, automationName: uiAutomator2, avd: Pixel, clearSystemFiles: true, deviceName: Pixel, platformName: android, platformVersion: 10, udid: emulator-5556, uiautomator2ServerInstallTimeout: 8000, unlockKey: 0122882435abA, unlockType: password}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5556, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5556, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 84, takesScreenshot: true, udid: emulator-5556, uiautomator2ServerInstallTimeout: 8000, unlockKey: 0122882435abA, unlockType: password, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
-Session ID: 94bae10f-5d74-494f-a400-777ee1f29d70
-*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text, &apos;Next&apos;)]}
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:192)
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
-	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
-	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.click(&lt;generated&gt;)
-	at Pages.LandingPage.sign_as_Tourist(LandingPage.java:93)
-	at Tests.LandingPageTest.Verify_user_can_use_tourist_mode(LandingPageTest.java:28)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error in building: Ill-formed XML document (missing opening tag for android.widget.ImageView). Try changing the &apos;normalizeTagNames&apos; driver setting to &apos;true&apos; in order to workaround the problem.
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-31-generic&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.sfdmobile.MainActivity, appPackage: com.sarajevo.food.dictionary, autoGrantPermissions: true, automationName: uiAutomator2, avd: Pixel, clearSystemFiles: true, databaseEnabled: false, desired: {appActivity: com.sfdmobile.MainActivity, appPackage: com.sarajevo.food.dictionary, autoGrantPermissions: true, automationName: uiAutomator2, avd: Pixel, clearSystemFiles: true, deviceName: Pixel, platformName: android, platformVersion: 10, udid: emulator-5556, uiautomator2ServerInstallTimeout: 8000, unlockKey: 0122882435abA, unlockType: password}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5556, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5556, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 84, takesScreenshot: true, udid: emulator-5556, uiautomator2ServerInstallTimeout: 8000, unlockKey: 0122882435abA, unlockType: password, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
-Session ID: 94bae10f-5d74-494f-a400-777ee1f29d70
-*** Element info: {Using=xpath, value=//android.widget.TextView[contains(@text, &apos;Next&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
-	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at io.appium.java_client.pagefactory.bys.builder.ByChained.lambda$0(ByChained.java:38)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:72)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
-	... 31 more
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Tests.LandingPageTest#Verify_Places_near_by_is_displayed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Tests.LandingPageTest#Verify_user_can_use_local_mode</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Nexus</h2><h3 id="m0">Tests.LandingPageTest#Verify_Places_near_by_is_displayed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Tests.LandingPageTest#Verify_user_can_use_local_mode</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Tests.LandingPageTest#Verify_user_can_use_tourist_mode</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

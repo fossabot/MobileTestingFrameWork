@@ -97,8 +97,10 @@ public class LandingPage extends BaseSetup{
         getStartedButton.click();
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         burgerMenu.get(0).click();
+        new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(settings));
         settings.click();
-        Assert.assertEquals(veriTourist.getText(),"TourSist");
+        driver.manage().timeouts().implicitlyWait(2,TimeUnit.SECONDS);
+        Assert.assertEquals(veriTourist.getText(),"Tourist");
 //        try{
 //            Assert.assertEquals(veriTourist.getText(),"TouSrist");
 //        }catch(AssertionError e){
@@ -127,6 +129,7 @@ public class LandingPage extends BaseSetup{
 
     @Step("Application will start and user will navigate as local")
     public void places_Near_by_are_displayed() throws InterruptedException {
+        Thread.sleep(500);
         SkipButton.click();
         getStartedButton.click();
 //        new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(placesNearBy.get(1)));

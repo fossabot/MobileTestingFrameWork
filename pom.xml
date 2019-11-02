@@ -21,7 +21,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.5.1</version>
+                <version>3.8.1</version>
                 <configuration>
                     <source>${jdk.level}</source>
                     <target>${jdk.level}</target>
@@ -38,7 +38,7 @@
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
                     <suiteXmlFiles>
-                        <suiteXmlFile>C:\Users\amrka\IdeaProjects\MobileTestingFrameWork\src\test\java\TestNG.xml</suiteXmlFile>
+                        <suiteXmlFile>/home/amrka/Desktop/Practices/Appium/MobileTestingFrameWork/src/test/java/TestNG.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
                 <dependencies>
@@ -57,15 +57,21 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>6.14.3</version>
+            <version>7.0.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
-            <version>2.11.0</version>
+            <version>2.13.0</version>
         </dependency>
-         <!--https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-->
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/io.qameta.allure/allure-maven &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>io.qameta.allure</groupId>-->
+<!--            <artifactId>allure-maven</artifactId>-->
+<!--            <version>2.10.0</version>-->
+<!--        </dependency>-->
+        <!--https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-server</artifactId>
@@ -75,7 +81,7 @@
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
-            <version>7.0.0</version>
+            <version>7.2.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
@@ -94,7 +100,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
-            <version>1.7.21</version>
+            <version>1.7.28</version>
         </dependency>
     </dependencies>
     <reporting>
@@ -105,7 +111,7 @@
                 <artifactId>allure-maven</artifactId>
                 <version>2.10.0</version>
                 <configuration>
-                    <reportDirectory>${basedir}/allure-report</reportDirectory>
+                    <reportDirectory>${basedir}/target/allure-report</reportDirectory>
                 </configuration>
             </plugin>
         </plugins>
