@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 3, Errors: 0, Skipped: 3, Time elapsed: 60.147 s <<< FAILURE! - in TestSuite
-setUp(Tests.LandingPageTest)  Time elapsed: 1.323 s  <<< FAILURE!
+Tests run: 10, Failures: 4, Errors: 0, Skipped: 6, Time elapsed: 20.786 s <<< FAILURE! - in TestSuite
+setUp(Tests.LandingPageTest)  Time elapsed: 1.241 s  <<< FAILURE!
 org.openqa.selenium.WebDriverException: 
 Connection refused (Connection refused)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -10,7 +10,15 @@ System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64
 Driver info: driver.version: AndroidDriver
 Caused by: java.net.ConnectException: Connection refused (Connection refused)
 
-setUp(Tests.LandingPageTest)  Time elapsed: 0.8 s  <<< FAILURE!
+setUp(Tests.LandingPageTest)  Time elapsed: 1.241 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Connection refused (Connection refused)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-32-generic', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+
+setUp(Tests.LandingPageTest)  Time elapsed: 0.956 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -34,7 +42,7 @@ remote stacktrace: UnknownError: An unknown server-side error occurred while pro
     at asyncHandler (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)
     at <anonymous>
 
-setUp(Tests.LandingPageTest)  Time elapsed: 0.116 s  <<< FAILURE!
+setUp(Tests.LandingPageTest)  Time elapsed: 0.167 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
