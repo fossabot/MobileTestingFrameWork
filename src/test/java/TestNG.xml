@@ -7,7 +7,7 @@
     <test name="Nexus">
         <parameter name="deviceName" value="SM-N975F"/>
         <parameter name="udid" value="RF8M82EDL8Y"/>
-        <parameter name="deviceId" value="0.0.0.0:8080"/>
+        <parameter name="deviceId" value="0.0.0.0:8090"/>
         <parameter name="platformVersion" value="9"/>
         <parameter name="URL_" value="127.0.0.1"/>
         <parameter name="Sport" value="4723"/>
