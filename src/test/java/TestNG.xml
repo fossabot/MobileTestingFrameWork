@@ -5,10 +5,10 @@
         <!--<listener class-name="Listeners.TestListener"/>-->
     <!--</listeners>-->
     <test name="Nexus">
-        <parameter name="deviceName" value="SM-G950F"/>
+        <parameter name="deviceName" value="Nexus 5"/>
         <parameter name="udid" value="RF8M82EDL8Y"/>
         <parameter name="deviceId" value="mdf:5050"/>
-        <parameter name="platformVersion" value="9"/>
+        <parameter name="platformVersion" value="6.0.1"/>
         <parameter name="URL_" value="mdf"/>
         <parameter name="Sport" value="4723"/>
         <parameter name="bootStrap" value="100"/>

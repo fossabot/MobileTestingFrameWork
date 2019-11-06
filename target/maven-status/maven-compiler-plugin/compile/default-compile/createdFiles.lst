@@ -1,5 +1,5 @@
-Pages/HomePage.class
-Configuration/Arg.class
-Configuration/BaseSetup.class
-Configuration/ThreadLocalDriver.class
-Pages/LandingPage.class
+Configuration\ThreadLocalDriver.class
+Configuration\BaseSetup.class
+Pages\HomePage.class
+Configuration\Arg.class
+Pages\LandingPage.class

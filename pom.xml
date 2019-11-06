@@ -38,7 +38,7 @@
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
                     <suiteXmlFiles>
-                        <suiteXmlFile>/home/amrka/Desktop/Practices/Appium/MobileTestingFrameWork/src/test/java/TestNG.xml</suiteXmlFile>
+                        <suiteXmlFile>./src/test/java/TestNG.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
                 <dependencies>
