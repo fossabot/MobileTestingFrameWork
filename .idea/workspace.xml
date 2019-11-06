@@ -46,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="44" column="123" lean-forward="true" selection-start-line="44" selection-start-column="123" selection-end-line="44" selection-end-column="123" />
+            <state relative-caret-position="370">
+              <caret line="48" column="141" lean-forward="true" selection-start-line="48" selection-start-column="141" selection-end-line="48" selection-end-column="141" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
+            <state relative-caret-position="578">
               <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
             </state>
           </provider>
@@ -347,7 +347,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8502000" />
+    <option name="totallyTimeSpent" value="8864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-288" y="-1088" width="1936" height="1096" extended-state="6" />
@@ -460,15 +460,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestNG.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
+        <state relative-caret-position="578">
           <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="44" column="123" lean-forward="true" selection-start-line="44" selection-start-column="123" selection-end-line="44" selection-end-column="123" />
+        <state relative-caret-position="370">
+          <caret line="48" column="141" lean-forward="true" selection-start-line="48" selection-start-column="141" selection-end-line="48" selection-end-column="141" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -131,7 +131,7 @@ public class BaseSetup  {
 
     }
 
-//    @AfterClass   // used with thread safety
+//    @AfterClass   // used with thread safety.
 //    public synchronized void teardown()  {
 //        if (driver != null)
 //            service.stop();
