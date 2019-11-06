@@ -42,7 +42,7 @@ public class BaseSetup  {
         dc.setCapability("platformName", "Android");
         dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, platformVersion);
 //        dc.setCapability(AndroidMobileCapabilityType.AVD,deviceName);
-        dc.setCapability(AndroidMobileCapabilityType.SYSTEM_PORT, sysPort); //systemPort for UiAtuomator2 from 8200 to 8299
+        dc.setCapability(AndroidMobileCapabilityType.SYSTEM_PORT, sysPort); //systemPort for UiAtuomator2 from 8200 to 8299.
 
 //        dc.setCapability("appium:unlockType", "password");
 //        dc.setCapability("appium:unlockKey", "@MR0122882435aba");
