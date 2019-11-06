@@ -44,8 +44,8 @@ public class BaseSetup  {
 //        dc.setCapability(AndroidMobileCapabilityType.AVD,deviceName);
         dc.setCapability(AndroidMobileCapabilityType.SYSTEM_PORT, sysPort); //systemPort for UiAtuomator2 from 8200 to 8299
 
-        dc.setCapability("appium:unlockType", "password");
-        dc.setCapability("appium:unlockKey", "@MR0122882435aba");
+//        dc.setCapability("appium:unlockType", "password");
+//        dc.setCapability("appium:unlockKey", "@MR0122882435aba");
         dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiAutomator2"); // Make the test fail after first tear down "BROWSER_TIMEOUT".
         dc.setCapability("appium:uiautomator2ServerInstallTimeout", 8000);
 
@@ -60,21 +60,21 @@ public class BaseSetup  {
 
 
         // Driver configuration
-        int port = Integer.parseInt(Sport); //need when use function .using
-        service = AppiumDriverLocalService
-                .buildService(new AppiumServiceBuilder()
-                        .usingDriverExecutable(new File("/usr/bin/node"))
-//                        .usingDriverExecutable(new File("C:\\Program Files\\nodejs\\node.exe"))
-                        .withAppiumJS(new File("/home/linuxbrew/.linuxbrew/lib/node_modules/appium/build/lib/main.js"))
-                        //.withAppiumJS(new File("C:\\Users\\amrka\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\build\\lib\\main.js"))
-                        .withArgument(Arg.ADDRESS,URL_)
-                        .withArgument(Arg.PORT,Sport)
-                        .withArgument(Arg.CALLBACKPORT,Sport)
-//                        .withArgument(Arg.WDALOCALPORT,wdaPort)
-                        .withArgument(Arg.BootstrapPort,bootStrap) //from 100 to 200
-//                    .withArgument(Arg.NODECONFIG,path)  //uncomment this when use parallel test with grid
-                        .withArgument(Arg.SESSIONOVERRIDE));
-        service.start();
+//        int port = Integer.parseInt(Sport); //need when use function .using
+//        service = AppiumDriverLocalService
+//                .buildService(new AppiumServiceBuilder()
+//                        .usingDriverExecutable(new File("/usr/bin/node"))
+////                        .usingDriverExecutable(new File("C:\\Program Files\\nodejs\\node.exe"))
+//                        .withAppiumJS(new File("/home/linuxbrew/.linuxbrew/lib/node_modules/appium/build/lib/main.js"))
+//                        //.withAppiumJS(new File("C:\\Users\\amrka\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\build\\lib\\main.js"))
+//                        .withArgument(Arg.ADDRESS,URL_)
+//                        .withArgument(Arg.PORT,Sport)
+//                        .withArgument(Arg.CALLBACKPORT,Sport)
+////                        .withArgument(Arg.WDALOCALPORT,wdaPort)
+//                        .withArgument(Arg.BootstrapPort,bootStrap) //from 100 to 200
+////                    .withArgument(Arg.NODECONFIG,path)  //uncomment this when use parallel test with grid
+//                        .withArgument(Arg.SESSIONOVERRIDE));
+//        service.start();
 
 //        // uncomment the code below while using selenium grid
 //        try {

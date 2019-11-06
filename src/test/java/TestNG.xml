@@ -5,11 +5,11 @@
         <!--<listener class-name="Listeners.TestListener"/>-->
     <!--</listeners>-->
     <test name="Nexus">
-        <parameter name="deviceName" value="SM-N975F"/>
+        <parameter name="deviceName" value="SM-G950F"/>
         <parameter name="udid" value="RF8M82EDL8Y"/>
-        <parameter name="deviceId" value="0.0.0.0:8090"/>
+        <parameter name="deviceId" value="mdf:5050"/>
         <parameter name="platformVersion" value="9"/>
-        <parameter name="URL_" value="127.0.0.1"/>
+        <parameter name="URL_" value="mdf"/>
         <parameter name="Sport" value="4723"/>
         <parameter name="bootStrap" value="100"/>
         <parameter name="sysPort" value="8200"/>
@@ -19,19 +19,19 @@
             <class name="Tests.LandingPageTest"/>
         </classes>
     </test> <!-- Nexus Emulator DEVICE -->
-    <test name="Pixel">
-        <parameter name="deviceName" value="Pixel"/>
-        <parameter name="udid" value="emulator-5556"/>
-        <parameter name="deviceId" value="192.168.1.2:5556"/>
-        <parameter name="platformVersion" value="10"/>
-        <parameter name="URL_" value="127.0.0.1"/>
-        <parameter name="Sport" value="4724"/>
-        <parameter name="bootStrap" value="200"/>
-        <parameter name="sysPort" value="8201"/>
-        <parameter name="wdaPort" value="8250"/>
-        <parameter name="path" value="/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json"/>
-        <classes>
-            <class name="Tests.LandingPageTest"/>
-        </classes>
-    </test> <!-- Pixel Emulator DEVICE -->
+<!--    <test name="Pixel">-->
+<!--        <parameter name="deviceName" value="Pixel"/>-->
+<!--        <parameter name="udid" value="emulator-5556"/>-->
+<!--        <parameter name="deviceId" value="192.168.1.2:5556"/>-->
+<!--        <parameter name="platformVersion" value="10"/>-->
+<!--        <parameter name="URL_" value="127.0.0.1"/>-->
+<!--        <parameter name="Sport" value="4724"/>-->
+<!--        <parameter name="bootStrap" value="200"/>-->
+<!--        <parameter name="sysPort" value="8201"/>-->
+<!--        <parameter name="wdaPort" value="8250"/>-->
+<!--        <parameter name="path" value="/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json"/>-->
+<!--        <classes>-->
+<!--            <class name="Tests.LandingPageTest"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Pixel Emulator DEVICE &ndash;&gt;-->
 </suite>
