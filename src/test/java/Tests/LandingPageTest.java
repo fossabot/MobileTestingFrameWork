@@ -17,7 +17,6 @@ import java.io.IOException;
 @Feature("Select between local and tourist user")
 public class LandingPageTest extends BaseSetup {
 
-
     @Test (priority = 1 , description = "Verify user can use tourist mode")
     @TmsLink("700")
     @Issue("1")

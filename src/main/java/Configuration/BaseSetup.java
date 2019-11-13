@@ -42,7 +42,7 @@ public class BaseSetup  {
         dc.setCapability("platformName", "Android");
         dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, platformVersion);
 //        dc.setCapability(AndroidMobileCapabilityType.AVD,deviceName);
-        dc.setCapability(AndroidMobileCapabilityType.SYSTEM_PORT, sysPort); //systemPort for UiAtuomator2 from 8200 to 8299
+        dc.setCapability(AndroidMobileCapabilityType.SYSTEM_PORT, sysPort); //systemPort for UiAtuomator2 from 8200 to 8299.
 
 //        dc.setCapability("appium:unlockType", "password");
 //        dc.setCapability("appium:unlockKey", "@MR0122882435aba");
@@ -124,9 +124,9 @@ public class BaseSetup  {
     @AfterSuite
     public void cleanUp() throws InterruptedException {
         if (driver != null)
-//            driver.quit();
-        service.stop();
-        driver.quit();
+            driver.quit();
+//        service.stop();
+//        driver.quit();
         System.out.println("Driver quit");
 
     }
