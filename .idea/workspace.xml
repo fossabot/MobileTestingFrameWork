@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ae6baa95-64fb-436f-9d72-67477a04062c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Configuration/BaseSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Configuration/BaseSetup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/LandingPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/LandingPageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="578">
               <caret line="41" column="12" selection-start-line="41" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -49,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="127" column="23" lean-forward="true" selection-start-line="127" selection-end-line="128" />
+            <state relative-caret-position="165">
+              <caret line="91" column="54" selection-start-line="91" selection-start-column="54" selection-end-line="91" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
+            <state relative-caret-position="238">
               <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
             </state>
           </provider>
@@ -79,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="272">
               <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
             </state>
           </provider>
@@ -147,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,7 +199,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -328,23 +324,13 @@
       <workItem from="1572695697574" duration="6482000" />
       <workItem from="1573054879777" duration="1428000" />
       <workItem from="1573483662337" duration="182000" />
-      <workItem from="1573668661560" duration="2206000" />
+      <workItem from="1573668661560" duration="3556000" />
+      <workItem from="1573925418079" duration="1791000" />
+      <workItem from="1574455707187" duration="260000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExecuteFrameWork - 2019.11.06 at 16h 46m 52s.xml">
-      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.11.13 at 19h 13m 30s.xml">
-      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.11.13 at 19h 16m 21s.xml">
-      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.11.13 at 19h 39m 54s.xml">
-      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ExecuteFrameWork - 2019.11.13 at 19h 42m 03s.xml">
       <configuration name="ExecuteFrameWork" configurationId="TestNG" />
     </history-entry>
@@ -363,15 +349,27 @@
     <history-entry file="ExecuteFrameWork - 2019.11.13 at 19h 47m 12s.xml">
       <configuration name="ExecuteFrameWork" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ExecuteFrameWork - 2019.11.13 at 20h 07m 39s.xml">
+      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExecuteFrameWork - 2019.11.22 at 21h 50m 46s.xml">
+      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExecuteFrameWork - 2019.11.22 at 21h 52m 38s.xml">
+      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExecuteFrameWork - 2019.11.22 at 21h 53m 20s.xml">
+      <configuration name="ExecuteFrameWork" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13762000" />
+    <option name="totallyTimeSpent" value="17163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12462006" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12765957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -380,15 +378,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3846154" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3609831" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32952183" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.44680852" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.44680852" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="13" />
@@ -479,10 +477,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="41" column="12" selection-start-line="41" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
         </state>
       </provider>
     </entry>
@@ -510,34 +532,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LandingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="41" column="12" selection-start-line="41" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="127" column="23" lean-forward="true" selection-start-line="127" selection-end-line="128" />
+        <state relative-caret-position="165">
+          <caret line="91" column="54" selection-start-line="91" selection-start-column="54" selection-end-line="91" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
