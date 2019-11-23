@@ -1,0 +1,101 @@
+[ {
+  "uid" : "1a98cbe60562aa66",
+  "name" : "Verify places neary by your location is visible",
+  "time" : {
+    "start" : 1573055233049,
+    "stop" : 1573055233049,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "fd24c52471903154",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1574455921697,
+    "stop" : 1574455921697,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "209760374af9b19b",
+  "name" : "Verify places neary by your location is visible",
+  "time" : {
+    "start" : 1574456271778,
+    "stop" : 1574456277439,
+    "duration" : 5661
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5249505575cbbda",
+  "name" : "Verify user can use tourist mode",
+  "time" : {
+    "start" : 1574456202350,
+    "stop" : 1574456217461,
+    "duration" : 15111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c55c7224b2cc936e",
+  "name" : "Verify user can use local mode",
+  "time" : {
+    "start" : 1573055232940,
+    "stop" : 1573055232940,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4c9e84b6818ba9fe",
+  "name" : "Verify user can use local mode",
+  "time" : {
+    "start" : 1574456238660,
+    "stop" : 1574456253903,
+    "duration" : 15243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd82314ad51c0c63",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1573055233042,
+    "stop" : 1573055233043,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e1b8b3d07412c62a",
+  "name" : "cleanUp",
+  "time" : {
+    "start" : 1573055233114,
+    "stop" : 1573055233114,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "52f6a2a739e9f536",
+  "name" : "cleanUp",
+  "time" : {
+    "start" : 1573670831658,
+    "stop" : 1573670831659,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "34bb21360690b25",
+  "name" : "Verify user can use tourist mode",
+  "time" : {
+    "start" : 1573055232771,
+    "stop" : 1573055232779,
+    "duration" : 8
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]
