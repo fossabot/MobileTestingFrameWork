@@ -50,30 +50,30 @@ public class TestListener extends BaseSetup implements ITestListener {
 
     @Override
     public void onStart(ITestContext iTestContext) {
-        System.out.println("I am in onStart method " + iTestContext.getName());
+        System.out.println("onStart method " + iTestContext.getName());
         iTestContext.setAttribute("AndroidDriver", this.driver);
     }
 
     @Override
     public void onFinish(ITestContext iTestContext) {
-        System.out.println("I am in onFinish method " + iTestContext.getName());
+        System.out.println("onFinish method " + iTestContext.getName());
 
     }
 
     @Override
     public void onTestStart(ITestResult iTestResult) {
-        System.out.println("I am in onTestStart method " +  getTestMethodName(iTestResult) + " start");
+        System.out.println("onTestStart method " +  getTestMethodName(iTestResult) + " start");
 
     }
 
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
-        System.out.println("I am in onTestSuccess method " +  getTestMethodName(iTestResult) + " succeed");
+        System.out.println("onTestSuccess method " +  getTestMethodName(iTestResult) + " succeed");
     }
 
     @Override
     public void onTestFailure(ITestResult iTestResult) {
-        System.out.println("I am in onTestFailure method " +  getTestMethodName(iTestResult) + " failed");
+        System.out.println("onTestFailure method " +  getTestMethodName(iTestResult) + " failed");
 
         //Allure ScreenShotRobot and SaveTestLog
         if (driver != null) {
@@ -87,7 +87,7 @@ public class TestListener extends BaseSetup implements ITestListener {
 
     @Override
     public void onTestSkipped(ITestResult iTestResult) {
-        System.out.println("I am in onTestSkipped method "+  getTestMethodName(iTestResult) + " skipped");
+        System.out.println("onTestSkipped method "+  getTestMethodName(iTestResult) + " skipped");
 
     }
 
