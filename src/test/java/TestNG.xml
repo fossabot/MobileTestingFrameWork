@@ -4,7 +4,7 @@
     <!--<listeners> &lt;!&ndash; if you add listeners here you should remove @listener from test class to avoid duplication, better to remove it from xml &ndash;&gt;-->
         <!--<listener class-name="Listeners.TestListener"/>-->
     <!--</listeners>-->
-    <test name="Nexus">
+    <test name="Nexus 5">
         <parameter name="deviceName" value="Nexus 5"/>
         <parameter name="udid" value="RF8M82EDL8Y"/>
         <parameter name="deviceId" value="mdf:5050"/>
@@ -19,12 +19,12 @@
             <class name="Tests.LandingPageTest"/>
         </classes>
     </test> <!-- Nexus Emulator DEVICE -->
-<!--    <test name="Pixel">-->
-<!--        <parameter name="deviceName" value="Pixel"/>-->
-<!--        <parameter name="udid" value="emulator-5556"/>-->
+<!--    <test name="Samsung Galaxy S4">-->
+<!--        <parameter name="deviceName" value="GT-I9505"/>-->
+<!--        <parameter name="udid" value="841af58f"/>-->
 <!--        <parameter name="deviceId" value="192.168.1.2:5556"/>-->
-<!--        <parameter name="platformVersion" value="10"/>-->
-<!--        <parameter name="URL_" value="127.0.0.1"/>-->
+<!--        <parameter name="platformVersion" value="5.0.1"/>-->
+<!--        <parameter name="URL_" value="mdf"/>-->
 <!--        <parameter name="Sport" value="4724"/>-->
 <!--        <parameter name="bootStrap" value="200"/>-->
 <!--        <parameter name="sysPort" value="8201"/>-->

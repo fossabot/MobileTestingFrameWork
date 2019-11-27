@@ -47,7 +47,8 @@ public class BaseSetup  {
 //        dc.setCapability("appium:unlockType", "password");
 //        dc.setCapability("appium:unlockKey", "@MR0122882435aba");
         dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiAutomator2"); // Make the test fail after first tear down "BROWSER_TIMEOUT"
-        dc.setCapability("appium:uiautomator2ServerInstallTimeout", 8000);
+        dc.setCapability("appium:uiautomator2ServerInstallTimeout", 10000);
+        dc.setCapability("adbExecTimeout","10000");
 
 
         // Application setup

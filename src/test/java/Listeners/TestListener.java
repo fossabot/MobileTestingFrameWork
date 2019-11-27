@@ -50,13 +50,13 @@ public class TestListener extends BaseSetup implements ITestListener {
 
     @Override
     public void onStart(ITestContext iTestContext) {
-        System.out.println("onStart method " + iTestContext.getName());
+        System.out.println("Starting test suite for device " + iTestContext.getName());
         iTestContext.setAttribute("AndroidDriver", this.driver);
     }
 
     @Override
     public void onFinish(ITestContext iTestContext) {
-        System.out.println("onFinish method " + iTestContext.getName());
+        System.out.println("Finishing test suite for device " + iTestContext.getName());
 
     }
 
