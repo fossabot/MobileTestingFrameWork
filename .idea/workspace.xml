@@ -5,47 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/136753df-4c61-4a17-830f-4fc525c7c93f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/3b3234e8-42f2-4328-9706-64f6d34bc37d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/6677d412-c3bc-4eb3-813f-794adf2555db-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/897b69b6-ea2a-427f-97e9-112b85943966-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/9eae98b5-2096-43cd-b4bf-3e4d37bf1e8a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/bab86433-cb20-4c0f-9100-5efbf73e5607-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e63c4a6c-820c-4e38-beff-9fefde4f9973-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/f4f1eb83-553c-4dd0-bcdc-1dfec6ea5c7a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/fedd997c-8553-482f-8973-9de92e9cd59a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Configuration/BaseSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Configuration/BaseSetup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/surefire-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Default Suite/Nexus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Default Suite/Nexus.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Tests.LandingPageTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/Nexus.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="210">
               <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -106,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+            <state relative-caret-position="203">
+              <caret line="44" column="101" selection-start-line="44" selection-start-column="101" selection-end-line="44" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
+            <state relative-caret-position="210">
               <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
             </state>
           </provider>
@@ -136,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="385">
+              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -170,6 +129,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>I am in</find>
+      <find>onStart method</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -191,15 +151,16 @@
         <option value="$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/environment.properties" />
         <option value="$PROJECT_DIR$/src/test/java/Listeners/TestListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestNG.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-1920" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectId" id="1RpWer7nf4NFG1uXfNLYxVfzCio" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -208,6 +169,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,49 +187,12 @@
               <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileTestingFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileTestingFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,44 +326,47 @@
       <workItem from="1574811821881" duration="276000" />
       <workItem from="1574813571648" duration="225000" />
       <workItem from="1574847595247" duration="42000" />
-      <workItem from="1574864301389" duration="3733000" />
+      <workItem from="1574864301389" duration="4165000" />
+      <workItem from="1574896480895" duration="811000" />
+      <workItem from="1574898580142" duration="54000" />
+      <workItem from="1574931144442" duration="5895000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExecuteFrameWork - 2019.11.13 at 19h 47m 12s.xml">
+    <history-entry file="ExecuteFrameWork - 2019.11.28 at 10h 36m 22s.xml">
       <configuration name="ExecuteFrameWork" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.11.13 at 20h 07m 39s.xml">
+    <history-entry file="ExecuteFrameWork - 2019.11.28 at 10h 37m 54s.xml">
       <configuration name="ExecuteFrameWork" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.11.22 at 21h 50m 46s.xml">
+    <history-entry file="ExecuteFrameWork - 2019.11.28 at 10h 39m 17s.xml">
       <configuration name="ExecuteFrameWork" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.11.22 at 21h 52m 38s.xml">
+    <history-entry file="ExecuteFrameWork - 2019.11.28 at 10h 42m 54s.xml">
       <configuration name="ExecuteFrameWork" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.11.22 at 21h 53m 20s.xml">
+    <history-entry file="ExecuteFrameWork - 2019.11.28 at 11h 09m 16s.xml">
       <configuration name="ExecuteFrameWork" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.11.27 at 01h 48m 17s.xml">
+    <history-entry file="ExecuteFrameWork - 2019.11.28 at 11h 13m 18s.xml">
       <configuration name="ExecuteFrameWork" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.11.27 at 23h 09m 52s.xml">
+    <history-entry file="ExecuteFrameWork - 2019.11.28 at 11h 17m 02s.xml">
       <configuration name="ExecuteFrameWork" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.11.27 at 23h 15m 55s.xml">
+    <history-entry file="ExecuteFrameWork - 2019.11.28 at 11h 41m 13s.xml">
       <configuration name="ExecuteFrameWork" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.11.28 at 00h 20m 32s.xml">
+    <history-entry file="ExecuteFrameWork - 2019.11.28 at 11h 42m 08s.xml">
       <configuration name="ExecuteFrameWork" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ExecuteFrameWork - 2019.11.28 at 00h 23m 42s.xml">
+    <history-entry file="ExecuteFrameWork - 2019.11.28 at 12h 12m 25s.xml">
       <configuration name="ExecuteFrameWork" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23010000" />
+    <option name="totallyTimeSpent" value="30202000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -449,9 +378,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="-1920" y="23" width="1920" height="1057" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18454936" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14217253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -460,7 +389,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3044586" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30362695" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -468,7 +397,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32952183" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" visible="true" weight="0.43057325" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" weight="0.36994818" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.4465494" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -553,20 +482,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/jre/lib/rt.jar!/jdk/internal/instrumentation/ClassInstrumentation.class" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/environment.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -587,16 +506,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/environment.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
+        <state relative-caret-position="210">
           <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
@@ -610,8 +539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+        <state relative-caret-position="203">
+          <caret line="44" column="101" selection-start-line="44" selection-start-column="101" selection-end-line="44" selection-end-column="101" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -620,8 +549,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestNG.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="385">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
         </state>
       </provider>
     </entry>

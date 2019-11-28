@@ -35,10 +35,10 @@ public class BaseSetup  {
         DesiredCapabilities dc = new DesiredCapabilities();
 
         // Mobile setup
-        dc.setCapability("deviceId", deviceId);
+//        dc.setCapability("deviceId", deviceId);
 //        dc.setCapability("isHeadless",true);
         dc.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
-//        dc.setCapability(MobileCapabilityType.UDID, udid);
+        dc.setCapability(MobileCapabilityType.UDID, udid);
         dc.setCapability("platformName", "Android");
         dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, platformVersion);
 //        dc.setCapability(AndroidMobileCapabilityType.AVD,deviceName);
@@ -46,7 +46,7 @@ public class BaseSetup  {
 
 //        dc.setCapability("appium:unlockType", "password");
 //        dc.setCapability("appium:unlockKey", "@MR0122882435aba");
-        dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiAutomator2"); // Make the test fail after first tear down "BROWSER_TIMEOUT"
+        dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2"); // Make the test fail after first tear down "BROWSER_TIMEOUT"
         dc.setCapability("appium:uiautomator2ServerInstallTimeout", 10000);
         dc.setCapability("adbExecTimeout","10000");
 

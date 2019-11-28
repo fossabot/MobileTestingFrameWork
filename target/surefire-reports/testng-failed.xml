@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Default Suite]" parallel="tests">
+  <test thread-count="2" verbose="0" name="Nexus 5(failed)" parallel="tests">
+    <parameter name="path" value="/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/selenium/note5.json"/>
+    <parameter name="Sport" value="4723"/>
+    <parameter name="wdaPort" value="8240"/>
+    <parameter name="platformVersion" value="6.0.1"/>
+    <parameter name="URL_" value="mdf"/>
+    <parameter name="udid" value="04ccf63925272a44"/>
+    <parameter name="bootStrap" value="100"/>
+    <parameter name="deviceName" value="Nexus_5"/>
+    <parameter name="deviceId" value="mdf:7417"/>
+    <parameter name="sysPort" value="8200"/>
+    <classes>
+      <class name="Tests.LandingPageTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="Verify_user_can_use_tourist_mode"/>
+          <include name="Verify_Places_near_by_is_displayed"/>
+          <include name="Verify_user_can_use_local_mode"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Tests.LandingPageTest -->
+    </classes>
+  </test> <!-- Nexus 5(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

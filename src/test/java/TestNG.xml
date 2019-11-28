@@ -2,12 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Default Suite"  parallel="tests" thread-count="2" verbose="1">
     <!--<listeners> &lt;!&ndash; if you add listeners here you should remove @listener from test class to avoid duplication, better to remove it from xml &ndash;&gt;-->
-        <!--<listener class-name="Listeners.TestListener"/>-->
+        <!--<listener class-name="Listeners.TestListene.r"/>-->
     <!--</listeners>-->
     <test name="Nexus 5">
-        <parameter name="deviceName" value="Nexus 5"/>
-        <parameter name="udid" value="RF8M82EDL8Y"/>
-        <parameter name="deviceId" value="mdf:5050"/>
+        <parameter name="deviceName" value="Nexus_5"/>
+        <parameter name="udid" value="04ccf63925272a44"/>
+        <parameter name="deviceId" value="mdf:7417"/>
         <parameter name="platformVersion" value="6.0.1"/>
         <parameter name="URL_" value="mdf"/>
         <parameter name="Sport" value="4723"/>
