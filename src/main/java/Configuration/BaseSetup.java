@@ -105,6 +105,8 @@ public class BaseSetup  {
 
 
         // Application setup
+        dc.setCapability(MobileCapabilityType.APP,
+                new File("src/test/resources/sfd.apk").getAbsolutePath());
         dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.sarajevo.food.dictionary");
         dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.sfdmobile.MainActivity");
 //        dc.setCapability(AndroidMobileCapabilityType.APP_WAIT_ACTIVITY, "com.sfdmobile.MainActivity");
