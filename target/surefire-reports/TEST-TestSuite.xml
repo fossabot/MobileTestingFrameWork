@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="20.786" tests="10" errors="0" skipped="6" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="38.718" tests="6" errors="0" skipped="3" failures="3">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/amrka/Desktop/Practices/Appium/MobileTestingFrameWork/target/test-classes:/home/amrka/Desktop/Practices/Appium/MobileTestingFrameWork/target/classes:/home/amrka/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/home/amrka/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/amrka/.m2/repository/io/qameta/allure/allure-testng/2.13.0/allure-testng-2.13.0.jar:/home/amrka/.m2/repository/io/qameta/allure/allure-java-commons/2.13.0/allure-java-commons-2.13.0.jar:/home/amrka/.m2/repository/io/qameta/allure/allure-model/2.13.0/allure-model-2.13.0.jar:/home/amrka/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/home/amrka/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/home/amrka/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/home/amrka/.m2/repository/org/apache/tika/tika-core/1.20/tika-core-1.20.jar:/home/amrka/.m2/repository/org/jooq/joor-java-8/0.9.10/joor-java-8-0.9.10.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/amrka/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/amrka/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/amrka/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/amrka/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/amrka/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/amrka/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/amrka/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/amrka/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/amrka/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/home/amrka/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/amrka/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/amrka/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/amrka/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/home/amrka/.m2/repository/io/appium/java-client/7.2.0/java-client-7.2.0.jar:/home/amrka/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/home/amrka/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar:/home/amrka/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/home/amrka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/amrka/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/amrka/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/home/amrka/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/home/amrka/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/home/amrka/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/amrka/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/home/amrka/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/amrka/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/home/amrka/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/amrka/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/home/amrka/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/home/amrka/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/amrka/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/amrka/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/home/amrka/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/home/amrka/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/home/amrka/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/amrka/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/home/amrka/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/home/amrka/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/home/amrka/.m2/repository/org/slf4j/slf4j-simple/1.7.28/slf4j-simple-1.7.28.jar:"/>
+    <property name="java.class.path" value="/media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork/target/test-classes:/media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork/target/classes:/home/amrka/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/home/amrka/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/amrka/.m2/repository/io/qameta/allure/allure-testng/2.13.0/allure-testng-2.13.0.jar:/home/amrka/.m2/repository/io/qameta/allure/allure-java-commons/2.13.0/allure-java-commons-2.13.0.jar:/home/amrka/.m2/repository/io/qameta/allure/allure-model/2.13.0/allure-model-2.13.0.jar:/home/amrka/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/home/amrka/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/home/amrka/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/home/amrka/.m2/repository/org/apache/tika/tika-core/1.20/tika-core-1.20.jar:/home/amrka/.m2/repository/org/jooq/joor-java-8/0.9.10/joor-java-8-0.9.10.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/amrka/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/amrka/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/amrka/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/amrka/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/amrka/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/amrka/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/amrka/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/amrka/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/amrka/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/home/amrka/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/amrka/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/amrka/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/home/amrka/.m2/repository/io/appium/java-client/7.2.0/java-client-7.2.0.jar:/home/amrka/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/home/amrka/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar:/home/amrka/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/home/amrka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/amrka/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/amrka/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/home/amrka/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/home/amrka/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/home/amrka/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/amrka/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/home/amrka/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/amrka/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/home/amrka/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/amrka/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/home/amrka/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/home/amrka/.m2/repository/com/squareup/okhttp3/okhttp/3.4.1/okhttp-3.4.1.jar:/home/amrka/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/amrka/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/amrka/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/home/amrka/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/home/amrka/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/home/amrka/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/amrka/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/home/amrka/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/home/amrka/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/home/amrka/.m2/repository/org/slf4j/slf4j-simple/1.7.28/slf4j-simple-1.7.28.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -17,26 +17,26 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk1.8.0_221/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/amrka/Desktop/Practices/Appium/MobileTestingFrameWork/target/surefire/surefirebooter3145056758171142023.jar /home/amrka/Desktop/Practices/Appium/MobileTestingFrameWork/target/surefire 2019-11-02T16-45-25_935-jvmRun1 surefire9074035797888699918tmp surefire_0378195866649578442tmp"/>
-    <property name="surefire.test.class.path" value="/home/amrka/Desktop/Practices/Appium/MobileTestingFrameWork/target/test-classes:/home/amrka/Desktop/Practices/Appium/MobileTestingFrameWork/target/classes:/home/amrka/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/home/amrka/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/amrka/.m2/repository/io/qameta/allure/allure-testng/2.13.0/allure-testng-2.13.0.jar:/home/amrka/.m2/repository/io/qameta/allure/allure-java-commons/2.13.0/allure-java-commons-2.13.0.jar:/home/amrka/.m2/repository/io/qameta/allure/allure-model/2.13.0/allure-model-2.13.0.jar:/home/amrka/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/home/amrka/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/home/amrka/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/home/amrka/.m2/repository/org/apache/tika/tika-core/1.20/tika-core-1.20.jar:/home/amrka/.m2/repository/org/jooq/joor-java-8/0.9.10/joor-java-8-0.9.10.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/amrka/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/amrka/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/amrka/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/amrka/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/amrka/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/amrka/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/amrka/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/amrka/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/amrka/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/home/amrka/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/amrka/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/amrka/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/amrka/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/home/amrka/.m2/repository/io/appium/java-client/7.2.0/java-client-7.2.0.jar:/home/amrka/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/home/amrka/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar:/home/amrka/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/home/amrka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/amrka/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/amrka/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/home/amrka/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/home/amrka/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/home/amrka/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/amrka/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/home/amrka/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/amrka/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/home/amrka/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/amrka/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/home/amrka/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/home/amrka/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/amrka/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/amrka/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/home/amrka/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/home/amrka/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/home/amrka/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/amrka/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/home/amrka/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/home/amrka/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/home/amrka/.m2/repository/org/slf4j/slf4j-simple/1.7.28/slf4j-simple-1.7.28.jar:"/>
+    <property name="sun.java.command" value="/media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork/target/surefire/surefirebooter4378121548423788377.jar /media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork/target/surefire 2019-12-08T21-08-50_387-jvmRun1 surefire682268661153323015tmp surefire_06053113325383606477tmp"/>
+    <property name="surefire.test.class.path" value="/media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork/target/test-classes:/media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork/target/classes:/home/amrka/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/home/amrka/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/amrka/.m2/repository/io/qameta/allure/allure-testng/2.13.0/allure-testng-2.13.0.jar:/home/amrka/.m2/repository/io/qameta/allure/allure-java-commons/2.13.0/allure-java-commons-2.13.0.jar:/home/amrka/.m2/repository/io/qameta/allure/allure-model/2.13.0/allure-model-2.13.0.jar:/home/amrka/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/home/amrka/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/home/amrka/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/home/amrka/.m2/repository/org/apache/tika/tika-core/1.20/tika-core-1.20.jar:/home/amrka/.m2/repository/org/jooq/joor-java-8/0.9.10/joor-java-8-0.9.10.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/amrka/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/amrka/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/amrka/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/amrka/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/amrka/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/amrka/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/amrka/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/amrka/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/amrka/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/home/amrka/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/home/amrka/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/amrka/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/amrka/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/home/amrka/.m2/repository/io/appium/java-client/7.2.0/java-client-7.2.0.jar:/home/amrka/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/home/amrka/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar:/home/amrka/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/home/amrka/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/amrka/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/amrka/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/home/amrka/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/home/amrka/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/home/amrka/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/amrka/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/home/amrka/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/amrka/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/home/amrka/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/amrka/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/home/amrka/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/home/amrka/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/home/amrka/.m2/repository/com/squareup/okhttp3/okhttp/3.4.1/okhttp-3.4.1.jar:/home/amrka/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/amrka/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/amrka/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/home/amrka/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/home/amrka/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/home/amrka/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/amrka/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/home/amrka/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/home/amrka/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/home/amrka/.m2/repository/org/slf4j/slf4j-simple/1.7.28/slf4j-simple-1.7.28.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/amrka"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="/usr/lib/jvm/jdk1.8.0_221/jre"/>
-    <property name="basedir" value="/home/amrka/Desktop/Practices/Appium/MobileTestingFrameWork"/>
+    <property name="basedir" value="/media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork"/>
     <property name="file.separator" value="/"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/amrka/Desktop/Practices/Appium/MobileTestingFrameWork/target/surefire/surefirebooter3145056758171142023.jar:/home/amrka/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar"/>
+    <property name="surefire.real.class.path" value="/media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork/target/surefire/surefirebooter4378121548423788377.jar:/home/amrka/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/jdk1.8.0_221/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_221/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_221/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk1.8.0_221/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_221/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_221/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_221/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_221/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_221-b11"/>
     <property name="user.name" value="amrka"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="5.0.0-32-generic"/>
+    <property name="os.version" value="5.0.0-37-generic"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/jdk1.8.0_221/jre/lib/endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="1.8.0_221"/>
-    <property name="user.dir" value="/home/amrka/Desktop/Practices/Appium/MobileTestingFrameWork"/>
+    <property name="user.dir" value="/media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -58,742 +58,113 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="setUp" classname="Tests.LandingPageTest" time="1.241">
-    <failure message="Connection refused (Connection refused)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-32-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-Connection refused (Connection refused)
+  <testcase name="setUp" classname="Tests.LandingPageTest" time="14.13">
+    <failure message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk&apos; timed out after 8000ms&apos;. Try to increase the 8000ms adb execution timeout represented by &apos;uiautomator2ServerInstallTimeout&apos; capability&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-37-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk&apos; timed out after 8000ms&apos;. Try to increase the 8000ms adb execution timeout represented by &apos;uiautomator2ServerInstallTimeout&apos; capability&#10;    at getResponseForW3CError (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)&#10;    at asyncHandler (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)&#10;    at process._tickCallback (internal/process/next_tick.js:68:7)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-37-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk' timed out after 8000ms'. Try to increase the 8000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-32-generic', java.version: '1.8.0_221'
+System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_221'
 Driver info: driver.version: AndroidDriver
-Caused by: java.net.ConnectException: Connection refused (Connection refused)
-</failure>
-    <system-out><![CDATA[I am in onStart method Nexus
-I am in onStart method Pixel
-I am in onStart method Nexus
-Driver Is Initiated
-Driver Is Initiated
-]]></system-out>
-  </testcase>
-  <testcase name="setUp" classname="Tests.LandingPageTest" time="1.241">
-    <failure message="Connection refused (Connection refused)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-32-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-Connection refused (Connection refused)
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk' timed out after 8000ms'. Try to increase the 8000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
+    at getResponseForW3CError (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-32-generic', java.version: '1.8.0_221'
-Driver info: driver.version: AndroidDriver
-Caused by: java.net.ConnectException: Connection refused (Connection refused)
-</failure>
-  </testcase>
-  <testcase name="setUp" classname="Tests.LandingPageTest" time="0.956">
-    <failure message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-32-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)&#10;    at getResponseForW3CError (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:826:9)&#10;    at asyncHandler (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)&#10;    at &lt;anonymous&gt;&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-32-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
-Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-32-generic', java.version: '1.8.0_221'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)
-    at getResponseForW3CError (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:826:9)
-    at asyncHandler (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)
-    at <anonymous>
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-32-generic', java.version: '1.8.0_221'
+System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_221'
 Driver info: driver.version: AndroidDriver
 Caused by: java.lang.reflect.InvocationTargetException
 Caused by: org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)
+An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk' timed out after 8000ms'. Try to increase the 8000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-32-generic', java.version: '1.8.0_221'
+System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_221'
 Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)
-    at getResponseForW3CError (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:826:9)
-    at asyncHandler (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)
-    at <anonymous>
-]]></failure>
-    <system-out><![CDATA[I am in onTestSkipped method Verify_user_can_use_tourist_mode skipped
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk' timed out after 8000ms'. Try to increase the 8000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
+    at getResponseForW3CError (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+</failure>
+    <system-out><![CDATA[I am in onStart method SM-N975F
 Driver Is Initiated
-Driver Is Initiated
-&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v1.15.0
-&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
-&amp#27;[35m[Appium]&amp#27;[39m   address: 127.0.0.1
-&amp#27;[35m[Appium]&amp#27;[39m   port: 4724
-&amp#27;[35m[Appium]&amp#27;[39m   callbackPort: 4724
-&amp#27;[35m[Appium]&amp#27;[39m   bootstrapPort: 200
-&amp#27;[35m[Appium]&amp#27;[39m   sessionOverride: true
-&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v1.15.0
-&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
-&amp#27;[35m[Appium]&amp#27;[39m   address: 127.0.0.1
-&amp#27;[35m[Appium]&amp#27;[39m   callbackPort: 4723
-&amp#27;[35m[Appium]&amp#27;[39m   bootstrapPort: 100
-&amp#27;[35m[Appium]&amp#27;[39m   sessionOverride: true
-&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on 127.0.0.1:4724
-&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on 127.0.0.1:4723
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
-[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Calling AppiumDriver.getStatus() with args: []
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
-[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Responding to client with driver.getStatus() result: {"build":{"version":"1.15.0"}}
-[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Calling AppiumDriver.getStatus() with args: []
-[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Responding to client with driver.getStatus() result: {"build":{"version":"1.15.0"}}
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m5 ms - 68&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m6 ms - 68&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"desiredCapabilities":{"appPackage":"com.sarajevo.food.dictionar&amp#27;[3y5"m,["HcTlTePa]r&amp#27;S[y3s9tme m&amp#27;F[i3l7em-s-">:&amp#27;t[r3u9em, "&amp#27;d[e3v7imcPeOISdT"&amp#27;:["3199m2 &amp#27;[.3176m8/.w1d./2h:u5b5/5s6e"ss,i"odne&amp#27;v[i3c9emN
-ame"&amp#27;:["3P5imx[eHlT"T,P"]a&amp#27;p[p3A9cmt i&amp#27;v[i9t0ym"{:""dceosmi.rsefddCmaopbaibliel.iMtaiiensA"c:t{i"vaiptpyP"a,c"kaapgpei"u:m":cuonml.oscakrKaejye"v:o".@fMoRo0d1.2d2i8c8t2i4o3n5aarbya"",,""cplleaatrfSoyrsmtemFiles":true,"VdersievionceId""::"0"10",".0ap.0pi.0:8080","deviceName":"SM-N975F","apumpA:cunltivoitcy"kTy:"com.sfdmobilepe.MainActivity","appium:u":n"lpockasKeyswo":"@MR0122882435aba",rd","au"pltoatfmationormVersion":"Na9"me",:""apuiAutomaptoir2um",":auuntoGrlaocnktPermiTssyionsp"e":"p:as"struweo"r,d"",p"laauttfomationName":"uiAutomator2","autoGrantPermissions":"true","platformName":"Android","appium:uiautomator2ServerInstallTimeout":8000,"systemPort":"8200"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.sfdmobile.MainActivity","appium:appPackage":"com.sarajevo.food.dictionary","appium:uiautomator2ServerInstallTimeout":8000,"appium:unlockKey":"@MR0122882435aba","appium:unlockType":"password","appium:autoGrantPermissions":"true","appium:automationName":"uiAutomator2","appium:clearSystemFiles":true,"deviceId":"0.0.0.0:8080","appium:deviceName":"SM-N975F","platformName":"android","appium:platformVersion":"9","appium:systemPort":"8200"}]}}&amp#27;[39m
-[debug] &amp#27;[35m[W3C]&amp#27;[39m Calling AppiumDriver.createSession() with args: [{"appPackage":"com.sarajevo.food.dictionary","clearSystemFiles":true,"deviceId":"0.0.0.0:8080","deviceName":"SM-N975F","appActivity":"com.sfdmobile.MainActivity","appium:unlockKey":"@MR0122882435aba","platformVersion":"9","appium:unlockType":"password","automationName":"uiAutomator2","autoGrantPermissions":"true","platformName":"Android","appium:uiautomator2ServerInstallTimeout":8000,"systemPort":"8200"},null,{"fiormName":"Android","appium:uiautomator2ServerInstallTimeout":8000,"systemPort":"8201"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.sfdmobile.MainActivity","appium:appPackage":"com.sarajevo.food.dictionary","appium:uiautomator2ServerInstallTimeout":8000,"appium:unlockKey":"@MR0122882435aba","appium:unlockType":"password","appium:autoGrantPermissions":"true","appium:automationName":"uiAutomator2","appium:clearSystemFiles":true,"deviceId":"192.168.1.2:5556","appium:deviceName":"Pixel","platformName":"android","appium:platformVersion":"10","appium:systemPort":"8201"}]}}&amp#27;[39m
-[debug] &amp#27;[35m[W3C]&amp#27;[39m Calling AppiumDriver.createSession() with args: [{"appPackage":"com.sarajevo.food.dictionary","clearSystemFiles":true,"deviceId":"192.168.1.2:5556","deviceName":"Pixel","appActivity":"com.sfdmobile.MainActivity","appium:unlockKey":"@MR0122882435aba","platformVersion":"10","appium:unlockType":"password","automationName":"uiAutomator2","autoGrantPermissions":"true","platformName":"Android","appium:uiautomator2ServerInstallTimeout":8000,"systemPort":"8201"},null,{"firstMatch":[{"appium:appActivity":"com.sfdmobile.MainActivity","appium:appPackage":"com.sarajevo.food.dictionary","appium:uiautomator2ServerInstallTimeout":8000,"appium:unlockKey":"@MR0122882435aba","appium:unlockType":"password","appium:autoGrantPrstMatch":[{"appium:appActivity":"com.sfdmobile.MainActivity","appium:appPackage":"com.sarajevo.food.dictionary","appium:uiautomator2ServerInstallTimeout":8000,"appium:unlockKey":"@MR0122882435aba","appium:unlockType":"password","appium:autoGrantPermissions":"true","appium:automationName":"uiAutomator2","appium:clearSystemFiles":true,"deviceId":"0.0.0.0:8080","appium:deviceName":"SM-N975F","platformName":"android","appium:platformVersion":"9","appium:systemPort":"8200"}]}]
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionRequested' logged at 1572709528145 (16:45:28 GMT+0100 (CET))
-&amp#27;[35m[BaseDriver]&amp#27;[39m The capabilities ["deviceId"] are not standard capabilities and should have an extension prefix
-ermissions":"true","appium:automationName":"uiAutomator2","appium:clearSystemFiles":true,"deviceId":"192.168.1.2:5556","appium:deviceName":"Pixel","platformName":"android","appium:platformVersion":"10","appium:systemPort":"8201"}]}]
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionRequested' logged at 1572709528145 (16:45:28 GMT+0100 (CET))
-&amp#27;[35m[BaseDriver]&amp#27;[39m The capabilities ["deviceId"] are not standard capabilities and should have an extension prefix
-&amp#27;[35m[Appium]&amp#27;[39m Appium v1.15.0 creating new AndroidUiautomator2Driver (v1.37.1) session
-&amp#27;[3[debug5]m[ Ap&amp#27;[3pi5mum][B&amp#27;[39m Appium v1.15.0 creating new AndroidUiautomator2Driver (v1.37.1) session
-aseDriver]&amp#27;[39m W3C capabilities and MJSONWP desired capabilities were provided
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Creating session with W3C capabilities: {
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "alwaysMatch": {
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceId": "0.0.0.0:8080",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "platformName": "android",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appActivity": "com.sfdmobile.MainActivity",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appPackage": "com.sarajevo.food.dictionary",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:uiautomator2ServerInstallTimeout": 8000,
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:unlockKey": "@MR0122882435aba",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:unlockType": "password",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:autoGrantPermissions": "true",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:automationName": "uiAutomator2",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:clearSystemFiles": true,
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceName": "SM-N975F",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:platformVersion": "9",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:systemPort": "8200"
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   },
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "firstMatch": [
-[debug] &amp#27;[35m[BaseDrive[dre]b&amp#27;u[39m g] &amp#27;[35m[  B a s{e}
-[Driver]&amp#27;[39m W3C capabilities and MJSONWP desired capabilities were provided
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Creating session with W3C capabilities: {
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "alwaysMatch": {
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceId": "192.168.1.2:5556",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "platformName": "android",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appActivity": "com.sfdmobile.MainActivity",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appPackage": "com.sarajevo.food.dictionary",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m    d ebug] &amp#27;[35m[BaseDriver]&amp#27;[39m   ]
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m }
-&amp#27;[35m[BaseDriver]&amp#27;[39m Number capability passed in as string. Functionality may be compromised.
-"appium:uiautomator2ServerInstallTimeout": 8000,
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:unlockKey": "@MR0122882435aba",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:unlockType": "password",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:autoGrantPermissions": "true",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:automationName": "uiAutomator2",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:clearSystemFiles": true,
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceName": "Pixel",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:platformVersion": "10",
-[de&amp#27;[bug] 35m[BaseDriver]&amp#27;[39m Capability 'autoGrantPermissions' changed from string to boolean. This may cause unexpected behavior
-&amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:systemPort": "8201"
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   },
-&amp#27;[35m[BaseDriver]&amp#27;[39m Capability 'systemP[ordte'b ucgh]a n&amp#27;g[e3d5 mf[rBoams esDtrriivnegr ](&amp#27;'[83290m0 ' )  "tfoi risnttMeagtecrh "(:8 2[0
-0). This may cause unexpected behavior
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     {}
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   ]
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m }
-&amp#27;&amp#27;[35m[BaseDriver]&amp#27;[39m Number capability passed in as string. Functionality may be compromised.
-[35m[BaseDriver]&amp#27;[39m The following capabilities were provided, but are not recognized by Appium:
-&amp#27;[35m[BaseDriver]&amp#27;[39m   deviceId
-&amp#27;[35m[BaseDriver]&amp#27;[39m Session created with se&amp#27;s[s3i5omn[ Biads:e Dbreibvce7rb]7&amp#27;e[-3f9cm3 6C-a4paa0b2i-lbi3t6y4 -'3aauctfoeG6rdaan6t2P0e0r
-m&amp#27;i[s3s5imo[nUsi'A ucthoamnagteodr 2f]r&amp#27;o[m3 9smt rSitnagr ttion gb 'ocoolm.saraejaenv.o .Tfhoiosd .mdaiyc tciaounsaer yu'n edxipreecctteldy  boenh the device
-avior
-&amp#27;[35m[BaseDriver]&amp#27;[39m Capability 'systemPort' changed from string ('8201') to integer (8201). This may cause unexpected behavior
-&amp#27;[35m[BaseDriver]&amp#27;[39m The following capabilities were provided, but are not recognized by Appium:
-&amp#27;[35m[BaseDriver]&amp#27;[39m   deviceId
-&amp#27;[35m[BaseDriver]&amp#27;[39m Session created with session id: 64e6c3e4-bc9b-47a6-85f7-985d3a5def82
-&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.sarajevo.food.dictionary' directly on the device
-&amp#27;[35m[ADB]&amp#27;[39m Found 1 'build-tools' folders under '/home/amrka/Android/Sdk' (newest first):
-&amp#27;[35m[ADB]&amp#27;[39m     /home/amrka/Android/Sdk/build-tools/29.0.2
-&amp#27;[35m[ADB]&amp#27;[39m Found 1 'build-tools' folders under '/home/amrka/Android/Sdk' (newest first):
-&amp#27;[35m[ADB]&amp#27;[39m     /home/amrka/Android/Sdk/build-tools/29.0.2
-&amp#27;[35m[ADB]&amp#27;[39m Using 'adb' from '/home/amrka/Android/Sdk/platform-tools/adb'
-&amp#27;[35m[AndroidDriver]&amp#27;[39m Retrieving device list
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Trying to find a connected android device
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting connected devices...
-&amp#27;[35m[ADB]&amp#27;[39m Using 'adb' from '/home/amrka/Android/Sdk/platform-tools/adb'
-&amp#27;[35m[AndroidDriver]&amp#27;[39m Retrieving device list
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Trying to find a connected android device
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting connected devices...
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Connected devices: [{"udid":"RF8M82EDL8Y","state":"device"},{"udid":"192.168.1.2:5555","state":"device"}]
-&amp#27;[35m[AndroidDriver]&amp#27;[39m Looking for a device with Android '9'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to RF8M82EDL8Y
-&amp#27;[35m[ADB]&amp#27;[39m Getting device platform version
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell getprop ro.build.version.release'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Connected devices: [{"udid":"RF8M82EDL8Y","state":"device"},{"udid":"192.168.1.2:5555","state":"device"}]
-&amp#27;[35m[AndroidDriver]&amp#27;[39m Looking for a device with Android '10'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to RF8M82EDL8Y
-&amp#27;[35m[ADB]&amp#27;[39m Getting device platform version
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell getprop ro.build.version.release'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.release': 9
-&amp#27;[35m[AndroidDriver]&amp#27;[39m Using device: RF8M82EDL8Y
-&amp#27;[35m[ADB]&amp#27;[39m Using 'adb' from '/home/amrka/Android/Sdk/platform-tools/adb'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to RF8M82EDL8Y
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell getprop ro.build.version.sdk'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.release': 9
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to 192.168.1.2:5555
-&amp#27;[35m[ADB]&amp#27;[39m Getting device platform version
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s 192.168.1.2\:5555 shell getprop ro.build.version.release'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.sdk': 28
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell getprop ro.build.version.release'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.release': 9
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Device API level: 28
-&amp#27;[35m[UiAutomator2]&amp#27;[39m Relaxing hidden api policy
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell settings put global hidden_api_policy_pre_p_apps 1'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.release': 9
-&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v1.15.0
-&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
-&amp#27;[35m[Appium]&amp#27;[39m   address: 127.0.0.1
-&amp#27;[35m[Appium]&amp#27;[39m   callbackPort: 4723
-&amp#27;[35m[Appium]&amp#27;[39m   bootstrapPort: 100
-&amp#27;[35m[Appium]&amp#27;[39m   sessionOverride: true
-&amp#27;[35m[AndroidDriver]&amp#27;[39m Error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)
-&amp#27;[35m[AndroidDriver]&amp#27;[39m     at Object.wrappedLogger.errorAndThrow (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-support/lib/logging.js:79:13)
-&amp#27;[35m[AndroidDriver]&amp#27;[39m     at Object.errorAndThrow [as getDeviceInfoFromCaps] (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:259:16)
-&amp#27;[35m[AndroidDriver]&amp#27;[39m     at <anonymous>
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Deleting UiAutomator2 session
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionStarted' logged at 1572709528668 (16:45:28 GMT+0100 (CET))
-[debug] &amp#27;[35m[W3C]&amp#27;[39m Encountered internal error running command: Error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)
-[debug] &amp#27;[35m[W3C]&amp#27;[39m     at Object.wrappedLogger.errorAndThrow (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-support/lib/logging.js:79:13)
-[debug] &amp#27;[35m[W3C]&amp#27;[39m     at Object.errorAndThrow [as getDeviceInfoFromCaps] (/home/linuxbrew/.linuxbre&amp#27;[w/35lib/node_m[moduAplepius/apm]pi&amp#27;[39umm We/nlcomodee_ tmoo duleAps/piapumpi vum1.15-a.0nd
-roid-driver/lib/android-helpers.js:259:16)
-[debug] &amp#27;[35m[W3C]&amp#27;[39m     at <anonymous>
-&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
-&amp#27;[35m[Appium]&amp#27;[39m   address: 127.0.0.1
-&amp#27;[35m[Appium]&amp#27;[39m   port: 4724
-&amp#27;[35m[Appium]&amp#27;[39m   callbackPort: 4724
-&amp#27;[35m[Appium]&amp#27;[39m   bootstrapPort: 200
-&amp#27;[35m[Appium]&amp#27;[39m   sessionOverride: true
-&amp#27;[35m[HTTP]&amp#27;[39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
-Fatal Error: listen EADDRINUSE 127.0.0.1:4723
-    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
-    at listenInCluster (net.js:1401:12)
-    at doListen (net.js:1510:7)
-    at _combinedTickCallback (internal/process/next_tick.js:142:11)
-    at process._tickCallback (internal/process/next_tick.js:181:9)
-&amp#27;[35m[HTTP]&amp#27;[39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
-Fatal Error: listen EADDRINUSE 127.0.0.1:4724
-    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
-    at listenInCluster (net.js:1401:12)
-    at doListen (net.js:1510:7)
-    at _combinedTickCallback (internal/process/next_tick.js:142:11)
-    at process._tickCallback (internal/process/next_tick.js:181:9)
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[31m500&amp#27;[39m &amp#27;[90m560 ms - 793&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell settings put global hidden_api_policy_p_apps 1'
 ]]></system-out>
+    <system-err><![CDATA[Dec 08, 2019 9:08:52 PM MdfService.DeviceApi addDeviceToUser
+INFO: The device <RF8M82EDL8Y> is locked successfully
+]]></system-err>
   </testcase>
-  <testcase name="setUp" classname="Tests.LandingPageTest" time="0.167">
-    <failure message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-32-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)&#10;    at getResponseForW3CError (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:826:9)&#10;    at asyncHandler (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)&#10;    at &lt;anonymous&gt;&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-32-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
-Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)
+  <testcase name="setUp" classname="Tests.LandingPageTest" time="12.286">
+    <failure message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk&apos; timed out after 8000ms&apos;. Try to increase the 8000ms adb execution timeout represented by &apos;uiautomator2ServerInstallTimeout&apos; capability&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-37-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk&apos; timed out after 8000ms&apos;. Try to increase the 8000ms adb execution timeout represented by &apos;uiautomator2ServerInstallTimeout&apos; capability&#10;    at getResponseForW3CError (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)&#10;    at asyncHandler (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)&#10;    at process._tickCallback (internal/process/next_tick.js:68:7)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-37-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk' timed out after 8000ms'. Try to increase the 8000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-32-generic', java.version: '1.8.0_221'
+System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_221'
 Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)
-    at getResponseForW3CError (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:826:9)
-    at asyncHandler (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)
-    at <anonymous>
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk' timed out after 8000ms'. Try to increase the 8000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
+    at getResponseForW3CError (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-32-generic', java.version: '1.8.0_221'
+System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_221'
 Driver info: driver.version: AndroidDriver
 Caused by: java.lang.reflect.InvocationTargetException
 Caused by: org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)
+An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk' timed out after 8000ms'. Try to increase the 8000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-32-generic', java.version: '1.8.0_221'
+System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_221'
 Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)
-    at getResponseForW3CError (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:826:9)
-    at asyncHandler (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)
-    at <anonymous>
-]]></failure>
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk' timed out after 8000ms'. Try to increase the 8000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
+    at getResponseForW3CError (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+</failure>
     <system-out><![CDATA[Driver Is Initiated
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
-[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Calling AppiumDriver.getStatus() with args: []
-[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Responding to client with driver.getStatus() result: {"build":{"version":"1.15.0"}}
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m2 ms - 68&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"desiredCapabilities":{"appPackage":"com.sarajevo.food.dictionary","clearSystemFiles":true,"deviceId":"192.168.1.2:5556","deviceName":"Pixel","appActivity":"com.sfdmobile.MainActivity","appium:unlockKey":"@MR0122882435aba","platformVersion":"10","appium:unlockType":"password","automationName":"uiAutomator2","autoGrantPermissions":"true","platformName":"Android","appium:uiautomator2ServerInstallTimeout":8000,"systemPort":"8201"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.sfdmobile.MainActivity","appium:appPackage":"com.sarajevo.food.dictionary","appium:uiautomator2ServerInstallTimeout":8000,"appium:unlockKey":"@MR0122882435aba","appium:unlockType":"password","appium:autoGrantPermissions":"true","appium:automationName":"uiAutomator2","appium:clearSystemFiles":true,"deviceId":"192.168.1.2:5556","appium:deviceName":"Pixel","platformName":"android","appium:platformVersion":"10","appium:systemPort":"8201"}]}}&amp#27;[39m
-[debug] &amp#27;[35m[W3C]&amp#27;[39m Calling AppiumDriver.createSession() with args: [{"appPackage":"com.sarajevo.food.dictionary","clearSystemFiles":true,"deviceId":"192.168.1.2:5556","deviceName":"Pixel","appActivity":"com.sfdmobile.MainActivity","appium:unlockKey":"@MR0122882435aba","platformVersion":"10","appium:unlockType":"password","automationName":"uiAutomator2","autoGrantPermissions":"true","platformName":"Android","appium:uiautomator2ServerInstallTimeout":8000,"systemPort":"8201"},null,{"firstMatch":[{"appium:appActivity":"com.sfdmobile.MainActivity","appium:appPackage":"com.sarajevo.food.dictionary","appium:uiautomator2ServerInstallTimeout":8000,"appium:unlockKey":"@MR0122882435aba","appium:unlockType":"password","appium:autoGrantPermissions":"true","appium:automationName":"uiAutomator2","appium:clearSystemFiles":true,"deviceId":"192.168.1.2:5556","appium:deviceName":"Pixel","platformName":"android","appium:platformVersion":"10","appium:systemPort":"8201"}]}]
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionRequested' logged at 1572709528746 (16:45:28 GMT+0100 (CET))
-&amp#27;[35m[BaseDriver]&amp#27;[39m The capabilities ["deviceId"] are not standard capabilities and should have an extension prefix
-&amp#27;[35m[Appium]&amp#27;[39m Appium v1.15.0 creating new AndroidUiautomator2Driver (v1.37.1) session
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m W3C capabilities and MJSONWP desired capabilities were provided
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Creating session with W3C capabilities: {
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "alwaysMatch": {
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceId": "192.168.1.2:5556",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "platformName": "android",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appActivity": "com.sfdmobile.MainActivity",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appPackage": "com.sarajevo.food.dictionary",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:uiautomator2ServerInstallTimeout": 8000,
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:unlockKey": "@MR0122882435aba",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:unlockType": "password",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:autoGrantPermissions": "true",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:automationName": "uiAutomator2",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:clearSystemFiles": true,
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceName": "Pixel",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:platformVersion": "10",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:systemPort": "8201"
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   },
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "firstMatch": [
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     {}
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   ]
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m }
-&amp#27;[35m[BaseDriver]&amp#27;[39m Number capability passed in as string. Functionality may be compromised.
-&amp#27;[35m[BaseDriver]&amp#27;[39m Capability 'autoGrantPermissions' changed from string to boolean. This may cause unexpected behavior
-&amp#27;[35m[BaseDriver]&amp#27;[39m Capability 'systemPort' changed from string ('8201') to integer (8201). This may cause unexpected behavior
-&amp#27;[35m[BaseDriver]&amp#27;[39m The following capabilities were provided, but are not recognized by Appium:
-&amp#27;[35m[BaseDriver]&amp#27;[39m   deviceId
-&amp#27;[35m[BaseDriver]&amp#27;[39m Session created with session id: 0e664676-dbb1-4d82-8ef9-bb3a18048b33
-&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.sarajevo.food.dictionary' directly on the device
-&amp#27;[35m[ADB]&amp#27;[39m Using 'adb' from '/home/amrka/Android/Sdk/platform-tools/adb'
-&amp#27;[35m[AndroidDriver]&amp#27;[39m Retrieving device list
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Trying to find a connected android device
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting connected devices...
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Connected devices: [{"udid":"RF8M82EDL8Y","state":"device"},{"udid":"192.168.1.2:5555","state":"device"}]
-&amp#27;[35m[AndroidDriver]&amp#27;[39m Looking for a device with Android '10'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to RF8M82EDL8Y
-&amp#27;[35m[ADB]&amp#27;[39m Getting device platform version
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell getprop ro.build.version.release'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell settings put global hidden_api_policy 1'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.release': 9
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to 192.168.1.2:5555
-&amp#27;[35m[ADB]&amp#27;[39m Getting device platform version
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s 192.168.1.2\:5555 shell getprop ro.build.version.release'
-&amp#27;[35m[AndroidDriver]&amp#27;[39m No app sent in, not parsing package/activity
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y wait-for-device'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell echo ping'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.release': 9
-&amp#27;[35m[AndroidDriver]&amp#27;[39m Error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)
-&amp#27;[35m[AndroidDriver]&amp#27;[39m     at Object.wrappedLogger.errorAndThrow (/home/linuxbrew/.lin[uxbrewde/lib/node_modubug]les &amp#27;[3/5ma[pApndiruoimdD/rinvoerd[ed_ebmodu]&amp#27;lesug]/a[3ppiu &amp#27;m-s9mu P[35m[UiAutouspphimng settings aatpokor tr2o dt/evice...]
-&amp#27;[3lib/logg9min Deletig.ng UiAutjsom:7ato9:1r2 3)
-sess&amp#27;i[on
-35m[de[Anbudroig] &amp#27;dD[35m[rivBasereD]&amp#27;ri[39mve  r]   a&amp#27;[3t O9m bjEveect.nterro 'nrAewndSeThrossw [[idoebas getugnStarted' log] &amp#27;DeviceIn[f35om[AgeDB]Fr&amp#27;[39md  Getomtingat  install status for io.appium.settings
-[debug] &amp#27;Caps] (/[3515727m[hoADB]&amp#27;[39m Runn09528883 (16ing '/homeme/a:m4rka//Anldiro5id:nu2xb/Srdk8/ pleatw/.linuxbrewG/lMibform/-ntoTde+_mooolds/uadb0 -P 100le (C5037E -s s/RFT8)M8)2E
-DLa8Y[ dppiuebug] sh&amp#27;e[ll dm/node_ump35smys[Wmo3C pa]&amp#27;dul[3ck9m Encouesnteagred inte/apprnale i o.appiuiuermr.sm-ettings'
-orandr runoining comd-madrnd: Erroivr:er/ Ulinab/blane drotoid f-indhe alpen rs.acjs:259:ti16ve)
- d&amp#27;[ev35icm[Ae ndorr oiedDrmuivelar]&amp#27;tor[39 wm     at <anonymous>
-ith OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)
-[debug] &amp#27;[35m[W3C]&amp#27;[39m     at Object.wrappedLogger.errorAndThrow (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-support/lib/logging.js:79:13)
-[debug] &amp#27;[35m[W3C]&amp#27;[39m     at Object.errorAndThrow [as getDeviceInfoFromCaps] (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:259:16)
-[debug] &amp#27;[35m[W3C]&amp#27;[39m     at <anonymous>
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[31m500&amp#27;[39m &amp#27;[90m138 ms - 793&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
 ]]></system-out>
+    <system-err><![CDATA[Dec 08, 2019 9:09:05 PM MdfService.DeviceApi connectDevice
+SEVERE: Device is in use
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="Tests.LandingPageTest" time="12.13">
+    <failure message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk&apos; timed out after 8000ms&apos;. Try to increase the 8000ms adb execution timeout represented by &apos;uiautomator2ServerInstallTimeout&apos; capability&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-37-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk&apos; timed out after 8000ms&apos;. Try to increase the 8000ms adb execution timeout represented by &apos;uiautomator2ServerInstallTimeout&apos; capability&#10;    at getResponseForW3CError (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)&#10;    at asyncHandler (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)&#10;    at process._tickCallback (internal/process/next_tick.js:68:7)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-37-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk' timed out after 8000ms'. Try to increase the 8000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk' timed out after 8000ms'. Try to increase the 8000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
+    at getResponseForW3CError (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk' timed out after 8000ms'. Try to increase the 8000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'warrior', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.0.0-37-generic', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: 'Command '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk' timed out after 8000ms'. Try to increase the 8000ms adb execution timeout represented by 'uiautomator2ServerInstallTimeout' capability
+    at getResponseForW3CError (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
+    at asyncHandler (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+</failure>
+    <system-out><![CDATA[Driver Is Initiated
+]]></system-out>
+    <system-err><![CDATA[Dec 08, 2019 9:09:17 PM MdfService.DeviceApi connectDevice
+SEVERE: Device is in use
+]]></system-err>
   </testcase>
   <testcase name="Verify_user_can_use_tourist_mode" classname="Tests.LandingPageTest" time="0">
-    <skipped message="Connection refused (Connection refused)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-32-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver"/>
+    <skipped message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk&apos; timed out after 8000ms&apos;. Try to increase the 8000ms adb execution timeout represented by &apos;uiautomator2ServerInstallTimeout&apos; capability&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-37-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk&apos; timed out after 8000ms&apos;. Try to increase the 8000ms adb execution timeout represented by &apos;uiautomator2ServerInstallTimeout&apos; capability&#10;    at getResponseForW3CError (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)&#10;    at asyncHandler (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)&#10;    at process._tickCallback (internal/process/next_tick.js:68:7)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-37-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver"/>
     <system-out><![CDATA[I am in onTestStart method Verify_user_can_use_tourist_mode start
-I am in onTestStart method Verify_user_can_use_tourist_mode start
-I am in onTestStart method Verify_user_can_use_tourist_mode start
-I am in onTestSkipped method Verify_user_can_use_tourist_mode skipped
 I am in onTestSkipped method Verify_user_can_use_tourist_mode skipped
 ]]></system-out>
-  </testcase>
-  <testcase name="Verify_user_can_use_tourist_mode" classname="Tests.LandingPageTest" time="0">
-    <skipped message="Connection refused (Connection refused)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-32-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver"/>
   </testcase>
   <testcase name="Verify_user_can_use_local_mode" classname="Tests.LandingPageTest" time="0">
-    <skipped message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-32-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)&#10;    at getResponseForW3CError (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:826:9)&#10;    at asyncHandler (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)&#10;    at &lt;anonymous&gt;&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-32-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver"/>
+    <skipped message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk&apos; timed out after 8000ms&apos;. Try to increase the 8000ms adb execution timeout represented by &apos;uiautomator2ServerInstallTimeout&apos; capability&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-37-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk&apos; timed out after 8000ms&apos;. Try to increase the 8000ms adb execution timeout represented by &apos;uiautomator2ServerInstallTimeout&apos; capability&#10;    at getResponseForW3CError (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)&#10;    at asyncHandler (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)&#10;    at process._tickCallback (internal/process/next_tick.js:68:7)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-37-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver"/>
     <system-out><![CDATA[I am in onTestStart method Verify_user_can_use_local_mode start
 I am in onTestSkipped method Verify_user_can_use_local_mode skipped
 ]]></system-out>
   </testcase>
-  <testcase name="Verify_user_can_use_local_mode" classname="Tests.LandingPageTest" time="0">
-    <skipped message="Connection refused (Connection refused)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-32-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver"/>
-    <system-out><![CDATA[I am in onFinish method Pixel
-[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.settings' is installed
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.settings'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell dumpsys package io.appium.settings'
-&amp#27;[35m[ADB]&amp#27;[39m Using 'apkanalyzer' from '/home/amrka/Android/Sdk/tools/bin/apkanalyzer'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting '/home/amrka/Android/Sdk/tools/bin/apkanalyzer' with args ["manifest","print","/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk"]
-&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v1.15.0
-&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
-&amp#27;[35m[Appium]&amp#27;[39m   address: 127.0.0.1
-&amp#27;[35m[Appium]&amp#27;[39m   port: 4724
-&amp#27;[35m[Appium]&amp#27;[39m   callbackPort: 4724
-&amp#27;[35m[Appium]&amp#27;[39m   bootstrapPort: 200
-&amp#27;[35m[Appium]&amp#27;[39m   sessionOverride: true
-&amp#27;[35m[HTTP]&amp#27;[39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
-Fatal Error: listen EADDRINUSE 127.0.0.1:4724
-    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
-    at listenInCluster (net.js:1401:12)
-    at doListen (net.js:1510:7)
-    at _combinedTickCallback (internal/process/next_tick.js:142:11)
-    at process._tickCallback (internal/process/next_tick.js:181:9)
-[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.2' >= '2.14.2')
-[debug] &amp#27;[35m[ADB]&amp#27;[39m There is no need to install/upgrade '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting IDs of all 'io.appium.settings' processes
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell 'pgrep --help; echo $?''
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pgrep -f io\\.appium\\.settings'
-[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m io.appium.settings is already running. There is no need to reset its permissions.
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell appops set io.appium.settings android\:mock_location allow'
-[debug] &amp#27;[35m[Logcat]&amp#27;[39m Starting logcat capture
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell dumpsys package io.appium.uiautomator2.server'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server' is installed
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.uiautomator2.server'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell dumpsys package io.appium.uiautomator2.server'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting '/home/amrka/Android/Sdk/tools/bin/apkanalyzer' with args ["manifest","print","/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk"]
-[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.3.0' >= '4.3.0')
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m io.appium.uiautomator2.server installation state: sameVersionInstalled
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for /home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk
-&amp#27;[35m[ADB]&amp#27;[39m Using 'apksigner' from '/home/amrka/Android/Sdk/build-tools/29.0.2/apksigner'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting '/home/amrka/Android/Sdk/build-tools/29.0.2/apksigner' with args '["verify","--print-certs","/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk"]'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
-[debug] &amp#27;[35m[ADB]&amp#27;[39m 
-[debug] &amp#27;[35m[ADB]&amp#27;[39m '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk' is already signed.
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server.test
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell dumpsys package io.appium.uiautomator2.server.test'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server.test' is installed
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for /home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting '/home/amrka/Android/Sdk/build-tools/29.0.2/apksigner' with args '["verify","--print-certs","/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk"]'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
-[debug] &amp#27;[35m[ADB]&amp#27;[39m 
-[debug] &amp#27;[35m[ADB]&amp#27;[39m '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
-&amp#27;[35m[UiAutomator2]&amp#27;[39m Server packages are not going to be (re)installed
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for services to be available
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm list instrumentation'
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Forwarding UiAutomator2 Server port 6790 to 8200
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Forwarding system: 8200 to device: 6790
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y forward tcp\:8200 tcp\:6790'
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m No app capability. Assuming it is already on the device
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for com.sarajevo.food.dictionary
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell dumpsys package com.sarajevo.food.dictionary'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m 'com.sarajevo.food.dictionary' is installed
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell am force-stop com.sarajevo.food.dictionary'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm clear com.sarajevo.food.dictionary'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell dumpsys package com.sarajevo.food.dictionary'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Retrieving requested permissions
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Retrieved 13 permission(s) from ["requested"] group(s)
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Retrieving granted permissions
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Retrieved 7 permission(s) from ["install","runtime"] group(s)
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Granting permissions ["android.permission.ACCESS_FINE_LOCATION","android.permission.WRITE_EXTERNAL_STORAGE","android.permission.ACCESS_COARSE_LOCATION","android.permission.READ_APP_BADGE","android.permission.READ_PHONE_STATE","android.permission.READ_EXTERNAL_STORAGE"] to 'com.sarajevo.food.dictionary'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Got the following command chunks to execute: [["pm","grant","com.sarajevo.food.dictionary","android.permission.ACCESS_FINE_LOCATION",";","pm","grant","com.sarajevo.food.dictionary","android.permission.WRITE_EXTERNAL_STORAGE",";","pm","grant","com.sarajevo.food.dictionary","android.permission.ACCESS_COARSE_LOCATION",";","pm","grant","com.sarajevo.food.dictionary","android.permission.READ_APP_BADGE",";","pm","grant","com.sarajevo.food.dictionary","android.permission.READ_PHONE_STATE",";","pm","grant","com.sarajevo.food.dictionary","android.permission.READ_EXTERNAL_STORAGE",";"]]
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm grant com.sarajevo.food.dictionary android.permission.ACCESS_FINE_LOCATION \; pm grant com.sarajevo.food.dictionary android.permission.WRITE_EXTERNAL_STORAGE \; pm grant com.sarajevo.food.dictionary android.permission.ACCESS_COARSE_LOCATION \; pm grant com.sarajevo.food.dictionary android.permission.READ_APP_BADGE \; pm grant com.sarajevo.food.dictionary android.permission.READ_PHONE_STATE \; pm grant com.sarajevo.food.dictionary android.permission.READ_EXTERNAL_STORAGE \;'
-[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Performed fast reset on the installed 'com.sarajevo.food.dictionary' application (stop and clear)
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Performing shallow cleanup of automation leftovers
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m No obsolete sessions have been detected (Error: socket hang up)
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell am force-stop io.appium.uiautomator2.server.test'
-&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting UIAutomator2 server 4.3.0
-&amp#27;[35m[UiAutomator2]&amp#27;[39m Using UIAutomator2 server from '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk' and test from '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
-&amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for UiAutomator2 to be online...
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Creating ADB subprocess with args: ["-P",5037,"-s","RF8M82EDL8Y","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
-&amp#27;[35m[WD Proxy]&amp#27;[39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
-[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
-&amp#27;[35m[WD Proxy]&amp#27;[39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m The initialization of the instrumentation process took 3137ms
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/session' to command name 'createSession'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"SM-N975F","platformVersion":"9","systemPort":8200},"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"RF8M82EDL8Y","platformVersion":"9","systemPort":8200,"deviceUDID":"RF8M...
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"28c85bf7-73e9-4cf9-9505-193d5c9a9b6c","value":{"sessionId":"28c85bf7-73e9-4cf9-9505-193d5c9a9b6c","capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"SM-N975F","platformVersion":"9","systemPort":8200},"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2...
-&amp#27;[35m[WD Proxy]&amp#27;[39m Determined the downstream protocol as 'W3C'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/info] to [GET http://localhost:8200/wd/hub/session/28c85bf7-73e9-4cf9-9505-193d5c9a9b6c/appium/device/info] with no body
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"28c85bf7-73e9-4cf9-9505-193d5c9a9b6c","value":{"androidId":"e59c9bed72fea3f7","manufacturer":"samsung","model":"SM-N975F","brand":"samsung","apiVersion":"28","platformVersion":"9","carrierName":"haloo","realDisplaySize":"1440x3040","displayDensity":560,"networks":[{"type":13,"typeName":"WIFI_P2P","subtype":0,"subtypeName":"","isConnected":false,"detailedState":"DISCONNECTED","state":"DISCONNECTED","extraInfo":null,"isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"NET_CAPABILITY_SUPL","networkCapabilities":"","linkUpstreamBandwidthKbps":1048576,"linkDownBandwidthKbps":1048576,"signalStrength":-2147483648,"networkSpecifier":null,"SSID":null}},{"type":1,"typeName":"WIFI","subtype":0,"subtypeName":"","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":null,"isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"NET_CAPABILITY_SUPL","networkCapabilities":"","linkUpstreamBandwidthKbps":1048576,"link...
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell dumpsys window'
-&amp#27;[35m[AndroidDriver]&amp#27;[39m Screen already unlocked, doing nothing
-&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.sarajevo.food.dictionary/com.sfdmobile.MainActivity and waiting for 'com.sarajevo.food.dictionary/com.sfdmobile.MainActivity'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell am start -W -n com.sarajevo.food.dictionary/com.sfdmobile.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8200/wd/hub/session/28c85bf7-73e9-4cf9-9505-193d5c9a9b6c/appium/device/pixel_ratio] with body: {}
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"28c85bf7-73e9-4cf9-9505-193d5c9a9b6c","value":3.5}
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/system_bars] to [GET http://localhost:8200/wd/hub/session/28c85bf7-73e9-4cf9-9505-193d5c9a9b6c/appium/device/system_bars] with body: {}
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"28c85bf7-73e9-4cf9-9505-193d5c9a9b6c","value":{"statusBar":114}}
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/window/current/size' to command name 'getWindowSize'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /window/current/size] to [GET http://localhost:8200/wd/hub/session/28c85bf7-73e9-4cf9-9505-193d5c9a9b6c/window/current/size] with body: {}
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"28c85bf7-73e9-4cf9-9505-193d5c9a9b6c","value":{"height":2759,"width":1440}}
-&amp#27;[35m[Appium]&amp#27;[39m New AndroidUiautomator2Driver session created successfully, session bebc7b7e-fc36-4a02-b364-3acfe6da6200 added to master session list
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionStarted' logged at 1572709537455 (16:45:37 GMT+0100 (CET))
-[debug] &amp#27;[35m[W3C (bebc7b7e)]&amp#27;[39m Cached the protocol value 'W3C' for the new session bebc7b7e-fc36-4a02-b364-3acfe6da6200
-[debug] &amp#27;[35m[W3C (bebc7b7e)]&amp#27;[39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"SM-N975F","platformVersion":"9","systemPort":8200},"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"RF8M82EDL8Y","platformVersion":"9","systemPort":8200,"deviceUDID":"RF8M82EDL8Y","devic...
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m9313 ms - 1310&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/bebc7b7e-fc36-4a02-b364-3acfe6da6200&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
-[debug] &amp#27;[35m[W3C (bebc7b7e)]&amp#27;[39m Calling AppiumDriver.getSession() with args: ["bebc7b7e-fc36-4a02-b364-3acfe6da6200"]
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Getting session details from server to mix in
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/' to command name 'getSession'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /] to [GET http://localhost:8200/wd/hub/session/28c85bf7-73e9-4cf9-9505-193d5c9a9b6c] with body: {}
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"28c85bf7-73e9-4cf9-9505-193d5c9a9b6c","value":{}}
-[debug] &amp#27;[35m[W3C (bebc7b7e)]&amp#27;[39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"SM-N975F","platformVersion":"9","systemPort":8200},"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"RF8M82EDL8Y","platformVersion":"9","systemPort":8200,"deviceUDID":"RF8M82EDL8Y","deviceApiLevel":28,"d...
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/bebc7b7e-fc36-4a02-b364-3acfe6da6200 &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m50 ms - 1242&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/bebc7b7e-fc36-4a02-b364-3acfe6da6200&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
-[debug] &amp#27;[35m[W3C (bebc7b7e)]&amp#27;[39m Calling AppiumDriver.getSession() with args: ["bebc7b7e-fc36-4a02-b364-3acfe6da6200"]
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Getting session details from server to mix in
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/' to command name 'getSession'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /] to [GET http://localhost:8200/wd/hub/session/28c85bf7-73e9-4cf9-9505-193d5c9a9b6c] with body: {}
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"28c85bf7-73e9-4cf9-9505-193d5c9a9b6c","value":{}}
-[debug] &amp#27;[35m[W3C (bebc7b7e)]&amp#27;[39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"SM-N975F","platformVersion":"9","systemPort":8200},"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"RF8M82EDL8Y","platformVersion":"9","systemPort":8200,"deviceUDID":"RF8M82EDL8Y","deviceApiLevel":28,"d...
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/bebc7b7e-fc36-4a02-b364-3acfe6da6200 &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m13 ms - 1242&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
-I am in onTestStart method Verify_user_can_use_local_mode start
-I am in onTestStart method Verify_user_can_use_local_mode start
-I am in onTestSkipped method Verify_user_can_use_local_mode skipped
-]]></system-out>
-    <system-err><![CDATA[Nov 02, 2019 4:45:37 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
   <testcase name="Verify_Places_near_by_is_displayed" classname="Tests.LandingPageTest" time="0">
-    <skipped message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-32-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 10. The following are available: RF8M82EDL8Y (9), 192.168.1.2:5555 (9)&#10;    at getResponseForW3CError (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:826:9)&#10;    at asyncHandler (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)&#10;    at &lt;anonymous&gt;&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-32-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver"/>
+    <skipped message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk&apos; timed out after 8000ms&apos;. Try to increase the 8000ms adb execution timeout represented by &apos;uiautomator2ServerInstallTimeout&apos; capability&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-37-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error executing adbExec. Original error: &apos;Command &apos;/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm install -r /data/local/tmp/appium_cache/0cc1725a60a05dbb5d0d09256f2fc6ece7e3b10f.apk&apos; timed out after 8000ms&apos;. Try to increase the 8000ms adb execution timeout represented by &apos;uiautomator2ServerInstallTimeout&apos; capability&#10;    at getResponseForW3CError (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)&#10;    at asyncHandler (/tmp/.mount_AppiummJOVmb/resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:388:37)&#10;    at process._tickCallback (internal/process/next_tick.js:68:7)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-37-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver"/>
     <system-out><![CDATA[I am in onTestStart method Verify_Places_near_by_is_displayed start
 I am in onTestSkipped method Verify_Places_near_by_is_displayed skipped
 ]]></system-out>
-  </testcase>
-  <testcase name="Verify_Places_near_by_is_displayed" classname="Tests.LandingPageTest" time="0">
-    <skipped message="Connection refused (Connection refused)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;warrior&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.0.0-32-generic&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: driver.version: AndroidDriver"/>
-    <system-out><![CDATA[I am in onTestSkipped method Verify_user_can_use_local_mode skipped
-Driver Is Initiated
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
-[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Calling AppiumDriver.getStatus() with args: []
-[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Responding to client with driver.getStatus() result: {"build":{"version":"1.15.0"}}
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m1 ms - 68&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"desiredCapabilities":{"appPackage":"com.sarajevo.food.dictionary","clearSystemFiles":true,"deviceId":"0.0.0.0:8080","deviceName":"SM-N975F","appActivity":"com.sfdmobile.MainActivity","appium:unlockKey":"@MR0122882435aba","platformVersion":"9","appium:unlockType":"password","automationName":"uiAutomator2","autoGrantPermissions":"true","platformName":"Android","appium:uiautomator2ServerInstallTimeout":8000,"systemPort":"8200"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.sfdmobile.MainActivity","appium:appPackage":"com.sarajevo.food.dictionary","appium:uiautomator2ServerInstallTimeout":8000,"appium:unlockKey":"@MR0122882435aba","appium:unlockType":"password","appium:autoGrantPermissions":"true","appium:automationName":"uiAutomator2","appium:clearSystemFiles":true,"deviceId":"0.0.0.0:8080","appium:deviceName":"SM-N975F","platformName":"android","appium:platformVersion":"9","appium:systemPort":"8200"}]}}&amp#27;[39m
-[debug] &amp#27;[35m[W3C]&amp#27;[39m Calling AppiumDriver.createSession() with args: [{"appPackage":"com.sarajevo.food.dictionary","clearSystemFiles":true,"deviceId":"0.0.0.0:8080","deviceName":"SM-N975F","appActivity":"com.sfdmobile.MainActivity","appium:unlockKey":"@MR0122882435aba","platformVersion":"9","appium:unlockType":"password","automationName":"uiAutomator2","autoGrantPermissions":"true","platformName":"Android","appium:uiautomator2ServerInstallTimeout":8000,"systemPort":"8200"},null,{"firstMatch":[{"appium:appActivity":"com.sfdmobile.MainActivity","appium:appPackage":"com.sarajevo.food.dictionary","appium:uiautomator2ServerInstallTimeout":8000,"appium:unlockKey":"@MR0122882435aba","appium:unlockType":"password","appium:autoGrantPermissions":"true","appium:automationName":"uiAutomator2","appium:clearSystemFiles":true,"deviceId":"0.0.0.0:8080","appium:deviceName":"SM-N975F","platformName":"android","appium:platformVersion":"9","appium:systemPort":"8200"}]}]
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionRequested' logged at 1572709537578 (16:45:37 GMT+0100 (CET))
-&amp#27;[35m[BaseDriver]&amp#27;[39m The capabilities ["deviceId"] are not standard capabilities and should have an extension prefix
-&amp#27;[35m[Appium]&amp#27;[39m Appium v1.15.0 creating new AndroidUiautomator2Driver (v1.37.1) session
-&amp#27;[35m[Appium]&amp#27;[39m Session override is on. Deleting other 1 active session.
-&amp#27;[35m[Appium]&amp#27;[39m Removing session bebc7b7e-fc36-4a02-b364-3acfe6da6200 from our master session list
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Deleting UiAutomator2 session
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Deleting UiAutomator2 server session
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/' to command name 'deleteSession'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [DELETE /] to [DELETE http://localhost:8200/wd/hub/session/28c85bf7-73e9-4cf9-9505-193d5c9a9b6c] with no body
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"28c85bf7-73e9-4cf9-9505-193d5c9a9b6c","value":null}
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell am force-stop com.sarajevo.food.dictionary'
-[debug] &amp#27;[35m[Logcat]&amp#27;[39m Stopping logcat capture
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Removing forwarded port socket connection: 8200 
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y forward --remove tcp\:8200'
-&amp#27;[35m[UiAutomator2]&amp#27;[39m Restoring hidden api policy to the device default configuration
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell settings delete global hidden_api_policy_pre_p_apps'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell settings delete global hidden_api_policy_p_apps'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell settings delete global hidden_api_policy'
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m W3C capabilities and MJSONWP desired capabilities were provided
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Creating session with W3C capabilities: {
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "alwaysMatch": {
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceId": "0.0.0.0:8080",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "platformName": "android",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appActivity": "com.sfdmobile.MainActivity",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appPackage": "com.sarajevo.food.dictionary",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:uiautomator2ServerInstallTimeout": 8000,
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:unlockKey": "@MR0122882435aba",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:unlockType": "password",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:autoGrantPermissions": "true",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:automationName": "uiAutomator2",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:clearSystemFiles": true,
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceName": "SM-N975F",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:platformVersion": "9",
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:systemPort": "8200"
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   },
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "firstMatch": [
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     {}
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   ]
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m }
-&amp#27;[35m[BaseDriver]&amp#27;[39m Number capability passed in as string. Functionality may be compromised.
-&amp#27;[35m[BaseDriver]&amp#27;[39m Capability 'autoGrantPermissions' changed from string to boolean. This may cause unexpected behavior
-&amp#27;[35m[BaseDriver]&amp#27;[39m Capability 'systemPort' changed from string ('8200') to integer (8200). This may cause unexpected behavior
-&amp#27;[35m[BaseDriver]&amp#27;[39m The following capabilities were provided, but are not recognized by Appium:
-&amp#27;[35m[BaseDriver]&amp#27;[39m   deviceId
-&amp#27;[35m[BaseDriver]&amp#27;[39m Session created with session id: c07a4442-36ff-4ae2-96a3-bf56f1c3cfbc
-&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.sarajevo.food.dictionary' directly on the device
-&amp#27;[35m[ADB]&amp#27;[39m Using 'adb' from '/home/amrka/Android/Sdk/platform-tools/adb'
-&amp#27;[35m[AndroidDriver]&amp#27;[39m Retrieving device list
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Trying to find a connected android device
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting connected devices...
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Connected devices: [{"udid":"RF8M82EDL8Y","state":"device"},{"udid":"192.168.1.2:5555","state":"device"}]
-&amp#27;[35m[AndroidDriver]&amp#27;[39m Looking for a device with Android '9'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to RF8M82EDL8Y
-&amp#27;[35m[ADB]&amp#27;[39m Getting device platform version
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell getprop ro.build.version.release'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.release': 9
-&amp#27;[35m[AndroidDriver]&amp#27;[39m Using device: RF8M82EDL8Y
-&amp#27;[35m[ADB]&amp#27;[39m Using 'adb' from '/home/amrka/Android/Sdk/platform-tools/adb'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to RF8M82EDL8Y
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell getprop ro.build.version.sdk'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.sdk': 28
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell getprop ro.build.version.release'
-&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v1.15.0
-&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
-&amp#27;[35m[Appium]&amp#27;[39m   address: 127.0.0.1
-&amp#27;[35m[Appium]&amp#27;[39m   callbackPort: 4723
-&amp#27;[35m[Appium]&amp#27;[39m   bootstrapPort: 100
-&amp#27;[35m[Appium]&amp#27;[39m   sessionOverride: true
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.release': 9
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Device API level: 28
-&amp#27;[35m[UiAutomator2]&amp#27;[39m Relaxing hidden api policy
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell settings put global hidden_api_policy_pre_p_apps 1'
-&amp#27;[35m[HTTP]&amp#27;[39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
-Fatal Error: listen EADDRINUSE 127.0.0.1:4723
-    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
-    at listenInCluster (net.js:1401:12)
-    at doListen (net.js:1510:7)
-    at _combinedTickCallback (internal/process/next_tick.js:142:11)
-    at process._tickCallback (internal/process/next_tick.js:181:9)
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell settings put global hidden_api_policy_p_apps 1'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell settings put global hidden_api_policy 1'
-[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m .
-&amp#27;[35m[AndroidDriver]&amp#27;[39m No app sent in, not parsing package/activity
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y wait-for-device'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell echo ping'
-[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Pushing settings apk to device...
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.settings
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell dumpsys package io.appium.settings'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.settings' is installed
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.settings'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell dumpsys package io.appium.settings'
-&amp#27;[35m[ADB]&amp#27;[39m Using 'apkanalyzer' from '/home/amrka/Android/Sdk/tools/bin/apkanalyzer'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting '/home/amrka/Android/Sdk/tools/bin/apkanalyzer' with args ["manifest","print","/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk"]
-[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m Time: 4.621
-[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m 
-[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m OK (1 test)
-[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m The process has exited with code 0
-[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.2' >= '2.14.2')
-[debug] &amp#27;[35m[ADB]&amp#27;[39m There is no need to install/upgrade '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting IDs of all 'io.appium.settings' processes
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell 'pgrep --help; echo $?''
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pgrep -f io\\.appium\\.settings'
-[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m io.appium.settings is already running. There is no need to reset its permissions.
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell appops set io.appium.settings android\:mock_location allow'
-[debug] &amp#27;[35m[Logcat]&amp#27;[39m Starting logcat capture
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell dumpsys package io.appium.uiautomator2.server'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server' is installed
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.uiautomator2.server'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell dumpsys package io.appium.uiautomator2.server'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting '/home/amrka/Android/Sdk/tools/bin/apkanalyzer' with args ["manifest","print","/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk"]
-[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.3.0' >= '4.3.0')
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m io.appium.uiautomator2.server installation state: sameVersionInstalled
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for /home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk
-&amp#27;[35m[ADB]&amp#27;[39m Using 'apksigner' from '/home/amrka/Android/Sdk/build-tools/29.0.2/apksigner'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting '/home/amrka/Android/Sdk/build-tools/29.0.2/apksigner' with args '["verify","--print-certs","/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk"]'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
-[debug] &amp#27;[35m[ADB]&amp#27;[39m 
-[debug] &amp#27;[35m[ADB]&amp#27;[39m '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk' is already signed.
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server.test
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell dumpsys package io.appium.uiautomator2.server.test'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server.test' is installed
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for /home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting '/home/amrka/Android/Sdk/build-tools/29.0.2/apksigner' with args '["verify","--print-certs","/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk"]'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
-[debug] &amp#27;[35m[ADB]&amp#27;[39m 
-[debug] &amp#27;[35m[ADB]&amp#27;[39m '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
-&amp#27;[35m[UiAutomator2]&amp#27;[39m Server packages are not going to be (re)installed
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for services to be available
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm list instrumentation'
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Forwarding UiAutomator2 Server port 6790 to 8200
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Forwarding system: 8200 to device: 6790
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y forward tcp\:8200 tcp\:6790'
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m No app capability. Assuming it is already on the device
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for com.sarajevo.food.dictionary
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell dumpsys package com.sarajevo.food.dictionary'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m 'com.sarajevo.food.dictionary' is installed
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell am force-stop com.sarajevo.food.dictionary'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm clear com.sarajevo.food.dictionary'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell dumpsys package com.sarajevo.food.dictionary'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Retrieving requested permissions
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Retrieved 13 permission(s) from ["requested"] group(s)
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Retrieving granted permissions
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Retrieved 7 permission(s) from ["install","runtime"] group(s)
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Granting permissions ["android.permission.ACCESS_FINE_LOCATION","android.permission.WRITE_EXTERNAL_STORAGE","android.permission.ACCESS_COARSE_LOCATION","android.permission.READ_APP_BADGE","android.permission.READ_PHONE_STATE","android.permission.READ_EXTERNAL_STORAGE"] to 'com.sarajevo.food.dictionary'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Got the following command chunks to execute: [["pm","grant","com.sarajevo.food.dictionary","android.permission.ACCESS_FINE_LOCATION",";","pm","grant","com.sarajevo.food.dictionary","android.permission.WRITE_EXTERNAL_STORAGE",";","pm","grant","com.sarajevo.food.dictionary","android.permission.ACCESS_COARSE_LOCATION",";","pm","grant","com.sarajevo.food.dictionary","android.permission.READ_APP_BADGE",";","pm","grant","com.sarajevo.food.dictionary","android.permission.READ_PHONE_STATE",";","pm","grant","com.sarajevo.food.dictionary","android.permission.READ_EXTERNAL_STORAGE",";"]]
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell pm grant com.sarajevo.food.dictionary android.permission.ACCESS_FINE_LOCATION \; pm grant com.sarajevo.food.dictionary android.permission.WRITE_EXTERNAL_STORAGE \; pm grant com.sarajevo.food.dictionary android.permission.ACCESS_COARSE_LOCATION \; pm grant com.sarajevo.food.dictionary android.permission.READ_APP_BADGE \; pm grant com.sarajevo.food.dictionary android.permission.READ_PHONE_STATE \; pm grant com.sarajevo.food.dictionary android.permission.READ_EXTERNAL_STORAGE \;'
-[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Performed fast reset on the installed 'com.sarajevo.food.dictionary' application (stop and clear)
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Performing shallow cleanup of automation leftovers
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m No obsolete sessions have been detected (Error: socket hang up)
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell am force-stop io.appium.uiautomator2.server.test'
-&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting UIAutomator2 server 4.3.0
-&amp#27;[35m[UiAutomator2]&amp#27;[39m Using UIAutomator2 server from '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.3.0.apk' and test from '/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
-&amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for UiAutomator2 to be online...
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Creating ADB subprocess with args: ["-P",5037,"-s","RF8M82EDL8Y","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
-&amp#27;[35m[WD Proxy]&amp#27;[39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
-[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
-&amp#27;[35m[WD Proxy]&amp#27;[39m Got an unexpected response with status undefined: {"code":"ECONNRESET"}
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m The initialization of the instrumentation process took 3100ms
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/session' to command name 'createSession'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"SM-N975F","platformVersion":"9","systemPort":8200},"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"RF8M82EDL8Y","platformVersion":"9","systemPort":8200,"deviceUDID":"RF8M...
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7db7441c-334d-4c91-8905-b8d386d0ef43","value":{"sessionId":"7db7441c-334d-4c91-8905-b8d386d0ef43","capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"SM-N975F","platformVersion":"9","systemPort":8200},"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2...
-&amp#27;[35m[WD Proxy]&amp#27;[39m Determined the downstream protocol as 'W3C'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/info] to [GET http://localhost:8200/wd/hub/session/7db7441c-334d-4c91-8905-b8d386d0ef43/appium/device/info] with no body
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7db7441c-334d-4c91-8905-b8d386d0ef43","value":{"androidId":"e59c9bed72fea3f7","manufacturer":"samsung","model":"SM-N975F","brand":"samsung","apiVersion":"28","platformVersion":"9","carrierName":"haloo","realDisplaySize":"1440x3040","displayDensity":560,"networks":[{"type":13,"typeName":"WIFI_P2P","subtype":0,"subtypeName":"","isConnected":false,"detailedState":"DISCONNECTED","state":"DISCONNECTED","extraInfo":null,"isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"NET_CAPABILITY_SUPL","networkCapabilities":"","linkUpstreamBandwidthKbps":1048576,"linkDownBandwidthKbps":1048576,"signalStrength":-2147483648,"networkSpecifier":null,"SSID":null}},{"type":1,"typeName":"WIFI","subtype":0,"subtypeName":"","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":null,"isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"NET_CAPABILITY_SUPL","networkCapabilities":"","linkUpstreamBandwidthKbps":1048576,"link...
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell dumpsys window'
-&amp#27;[35m[AndroidDriver]&amp#27;[39m Screen already unlocked, doing nothing
-&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.sarajevo.food.dictionary/com.sfdmobile.MainActivity and waiting for 'com.sarajevo.food.dictionary/com.sfdmobile.MainActivity'
-[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/home/amrka/Android/Sdk/platform-tools/adb -P 5037 -s RF8M82EDL8Y shell am start -W -n com.sarajevo.food.dictionary/com.sfdmobile.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8200/wd/hub/session/7db7441c-334d-4c91-8905-b8d386d0ef43/appium/device/pixel_ratio] with body: {}
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7db7441c-334d-4c91-8905-b8d386d0ef43","value":3.5}
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/system_bars] to [GET http://localhost:8200/wd/hub/session/7db7441c-334d-4c91-8905-b8d386d0ef43/appium/device/system_bars] with body: {}
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7db7441c-334d-4c91-8905-b8d386d0ef43","value":{"statusBar":114}}
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/window/current/size' to command name 'getWindowSize'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /window/current/size] to [GET http://localhost:8200/wd/hub/session/7db7441c-334d-4c91-8905-b8d386d0ef43/window/current/size] with body: {}
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7db7441c-334d-4c91-8905-b8d386d0ef43","value":{"height":2759,"width":1440}}
-&amp#27;[35m[Appium]&amp#27;[39m New AndroidUiautomator2Driver session created successfully, session c07a4442-36ff-4ae2-96a3-bf56f1c3cfbc added to master session list
-[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionStarted' logged at 1572709546668 (16:45:46 GMT+0100 (CET))
-[debug] &amp#27;[35m[W3C (c07a4442)]&amp#27;[39m Cached the protocol value 'W3C' for the new session c07a4442-36ff-4ae2-96a3-bf56f1c3cfbc
-[debug] &amp#27;[35m[W3C (c07a4442)]&amp#27;[39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"SM-N975F","platformVersion":"9","systemPort":8200},"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"RF8M82EDL8Y","platformVersion":"9","systemPort":8200,"deviceUDID":"RF8M82EDL8Y","devic...
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m9094 ms - 1310&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/c07a4442-36ff-4ae2-96a3-bf56f1c3cfbc&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
-[debug] &amp#27;[35m[W3C (c07a4442)]&amp#27;[39m Calling AppiumDriver.getSession() with args: ["c07a4442-36ff-4ae2-96a3-bf56f1c3cfbc"]
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Getting session details from server to mix in
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/' to command name 'getSession'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /] to [GET http://localhost:8200/wd/hub/session/7db7441c-334d-4c91-8905-b8d386d0ef43] with body: {}
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7db7441c-334d-4c91-8905-b8d386d0ef43","value":{}}
-[debug] &amp#27;[35m[W3C (c07a4442)]&amp#27;[39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"SM-N975F","platformVersion":"9","systemPort":8200},"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"RF8M82EDL8Y","platformVersion":"9","systemPort":8200,"deviceUDID":"RF8M82EDL8Y","deviceApiLevel":28,"d...
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/c07a4442-36ff-4ae2-96a3-bf56f1c3cfbc &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m33 ms - 1242&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/c07a4442-36ff-4ae2-96a3-bf56f1c3cfbc&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
-[debug] &amp#27;[35m[W3C (c07a4442)]&amp#27;[39m Calling AppiumDriver.getSession() with args: ["c07a4442-36ff-4ae2-96a3-bf56f1c3cfbc"]
-[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Getting session details from server to mix in
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/' to command name 'getSession'
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /] to [GET http://localhost:8200/wd/hub/session/7db7441c-334d-4c91-8905-b8d386d0ef43] with body: {}
-[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7db7441c-334d-4c91-8905-b8d386d0ef43","value":{}}
-[debug] &amp#27;[35m[W3C (c07a4442)]&amp#27;[39m Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"SM-N975F","platformVersion":"9","systemPort":8200},"platformName":"android","deviceId":"0.0.0.0:8080","appActivity":"com.sfdmobile.MainActivity","appPackage":"com.sarajevo.food.dictionary","uiautomator2ServerInstallTimeout":8000,"unlockKey":"@MR0122882435aba","unlockType":"password","autoGrantPermissions":true,"automationName":"uiAutomator2","clearSystemFiles":true,"deviceName":"RF8M82EDL8Y","platformVersion":"9","systemPort":8200,"deviceUDID":"RF8M82EDL8Y","deviceApiLevel":28,"d...
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/c07a4442-36ff-4ae2-96a3-bf56f1c3cfbc &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m19 ms - 1242&amp#27;[39m
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
-I am in onTestStart method Verify_Places_near_by_is_displayed start
-I am in onTestStart method Verify_Places_near_by_is_displayed start
-I am in onTestSkipped method Verify_Places_near_by_is_displayed skipped
-]]></system-out>
-    <system-err><![CDATA[Nov 02, 2019 4:45:46 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
 </testsuite>

@@ -12,6 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Factory;
 
 import java.io.IOException;
 import java.util.List;
@@ -21,11 +22,10 @@ import java.util.concurrent.TimeUnit;
 public class LandingPage extends BaseSetup{
 
 
-//    protected AndroidDriver driver;
+    //    protected AndroidDriver driver;
     protected WebDriverWait wait;
 
-
-    public LandingPage(AndroidDriver driver ) {
+    public LandingPage(AndroidDriver driver) {
         this.driver = driver;
         wait = new WebDriverWait(driver, 15);
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
@@ -82,8 +82,6 @@ public class LandingPage extends BaseSetup{
 
     @AndroidFindBy(xpath = "//android.widget.TextView[contains(@text, 'Skip')]")
     private MobileElement SkipButton;
-
-
 
 
     @Step("Application will start and user will navigate as tourist")

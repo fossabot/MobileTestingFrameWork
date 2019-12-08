@@ -1,5 +1,7 @@
+MdfService/MDFService.class
+Configuration/BaseSetup.class
+MdfService/DeviceApi.class
 Pages/HomePage.class
 Configuration/Arg.class
-Configuration/BaseSetup.class
 Configuration/ThreadLocalDriver.class
 Pages/LandingPage.class
