@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae6baa95-64fb-436f-9d72-67477a04062c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/sfd.apk" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sfd.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Configuration/BaseSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Configuration/BaseSetup.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,16 +59,16 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/target/allure-results" />
-      <recent name="C:\Users\amrka\IdeaProjects\MobileTestingFrameWork\Reports\allure-results" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/MdfService" />
       <recent name="$PROJECT_DIR$/target/allure-results" />
       <recent name="C:\Users\amrka\IdeaProjects\MobileTestingFrameWork\target\allure-results" />
       <recent name="C:\Users\amrka\IdeaProjects\MobileTestingFrameWork\src\test" />
-      <recent name="C:\Users\amrka\IdeaProjects\MobileTestingFrameWork\src\test\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target/allure-results" />
+      <recent name="C:\Users\amrka\IdeaProjects\MobileTestingFrameWork\Reports\allure-results" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -166,7 +170,7 @@
       <workItem from="1575814435380" duration="1214000" />
       <workItem from="1575815851424" duration="7326000" />
       <workItem from="1575832667592" duration="511000" />
-      <workItem from="1575835122893" duration="1813000" />
+      <workItem from="1575835122893" duration="3165000" />
     </task>
     <servers />
   </component>

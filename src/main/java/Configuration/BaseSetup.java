@@ -100,7 +100,7 @@ public class BaseSetup  {
 
         dc.setCapability("appium:unlockType", "password");
         dc.setCapability("appium:unlockKey", "@MR0122882435aba");
-        dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiAutomator2"); // Make the test fail after first tear down "BROWSER_TIMEOUT".
+        dc.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2"); // Make the test fail after first tear down "BROWSER_TIMEOUT".
         dc.setCapability("appium:uiautomator2ServerInstallTimeout", 8000);
 
 
@@ -118,7 +118,7 @@ public class BaseSetup  {
         // Driver configuration
 
         connectToStfDevice();
-        createAppiumService(URL_,Sport,bootStrap);
+//        createAppiumService(URL_,Sport,bootStrap);
 //        driver = new AndroidDriver(this.service.getUrl(), dc); //uncomment this part when use parallel test without grid
 
 //        // uncomment the code below while using selenium grid
