@@ -30,8 +30,8 @@ public class BaseSetup  {
     private DeviceApi deviceApi;
 
 
-    private static final String MDF_SERVICE_URL = "http://localhost:7100";  // Change this URL
-    private static final String ACCESS_TOKEN = "dee35b82018f4dd4852d8ecdbe34377fbb0d37d5beab480781b2dfe524b12523";  // Change this access token
+    private static final String MDF_SERVICE_URL = "http://mdf.mistral.ba";  // Change this URL
+    private static final String ACCESS_TOKEN = "9860f2f1bdeb4e049d87bd154b3cd4dc2d97a45f034a4b80b6cfe45a538bde4a";  // Change this access token
     protected static String deviceSerial = "RF8M82EDL8Y";
 
 //    @Factory(dataProvider = "mdfIntegration")
@@ -39,43 +39,43 @@ public class BaseSetup  {
 //        this.deviceSerial = deviceSerial;
 //    }
 
-//    @Factory(dataProvider = "mdfIntegration")
-//    public BaseSetup() {
-//        this.deviceSerial = deviceSerial;
-//    }
-//
-//
-//    @DataProvider(name = "mdfIntegration")
-//    public Object[][] mdfIntegration() {
-//        return new Object[][] {
-//                {"RF8M82EDL8Y"}    // Change the device serial
-//        };
-//    }
+    @Factory(dataProvider = "mdfIntegration")
+    public BaseSetup() {
+        this.deviceSerial = deviceSerial;
+    }
+
+
+    @DataProvider
+    public Object[][] mdfIntegration() {
+        return new Object[][] {
+                {"RF8M82EDL8Y"}    // Change the device serial
+        };
+    }
 
     private void connectToStfDevice() throws MalformedURLException, URISyntaxException {
         MDFService mdfService = new MDFService(MDF_SERVICE_URL,ACCESS_TOKEN);
         this.deviceApi = new DeviceApi(mdfService);
         this.deviceApi.connectDevice(this.deviceSerial);
     }
-    @Parameters({"URL_","Sport","bootStrap"})
-    private void createAppiumService(String URL_, String Sport,String bootStrap) {
-//        int port = Integer.parseInt(Sport); //need when use function .using
-        service = AppiumDriverLocalService
-                .buildService(new AppiumServiceBuilder()
-                        .usingDriverExecutable(new File("/usr/bin/node"))
+//    @Parameters({"URL_","Sport","bootStrap"})
+//    private void createAppiumService(String URL_, String Sport,String bootStrap) {
+////        int port = Integer.parseInt(Sport); //need when use function .using
+//        service = AppiumDriverLocalService
+//                .buildService(new AppiumServiceBuilder()
+////                        .usingDriverExecutable(new File("/usr/bin/node"))
 //                        .usingDriverExecutable(new File("C:\\Program Files\\nodejs\\node.exe"))
-                        .withAppiumJS(new File("/home/linuxbrew/.linuxbrew/lib/node_modules/appium/build/lib/main.js"))
-                        //.withAppiumJS(new File("C:\\Users\\amrka\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\build\\lib\\main.js"))
-                        .withArgument(Arg.ADDRESS,URL_)
-                        .withArgument(Arg.PORT,Sport)
-                        .withArgument(Arg.CALLBACKPORT,Sport)
-//                      .withArgument(Arg.WDALOCALPORT,wdaPort)
-                        .withArgument(Arg.BootstrapPort,bootStrap) //from 100 to 200
-//                      .withArgument(Arg.NODECONFIG,path)  //uncomment this when use parallel test with grid
-                        .withArgument(Arg.SESSIONOVERRIDE));
-        service.start();
-
-    }
+////                        .withAppiumJS(new File("/home/linuxbrew/.linuxbrew/lib/node_modules/appium/build/lib/main.js"))
+//                        .withAppiumJS(new File("C:\\Users\\amrka\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
+//                        .withArgument(Arg.ADDRESS,URL_)
+//                        .withArgument(Arg.PORT,Sport)
+//                        .withArgument(Arg.CALLBACKPORT,Sport)
+////                      .withArgument(Arg.WDALOCALPORT,wdaPort)
+//                        .withArgument(Arg.BootstrapPort,bootStrap) //from 100 to 200
+////                      .withArgument(Arg.NODECONFIG,path)  //uncomment this when use parallel test with grid
+//                        .withArgument(Arg.SESSIONOVERRIDE));
+//        service.start();
+//
+//    }
 
 
 
@@ -105,8 +105,8 @@ public class BaseSetup  {
 
 
         // Application setup
-        dc.setCapability(MobileCapabilityType.APP,
-                new File("src/test/resources/sfd.apk").getAbsolutePath());
+//        dc.setCapability(MobileCapabilityType.APP,
+//                new File("src/test/resources/sfd.apk").getAbsolutePath());
         dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.sarajevo.food.dictionary");
         dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.sfdmobile.MainActivity");
 //        dc.setCapability(AndroidMobileCapabilityType.APP_WAIT_ACTIVITY, "com.sfdmobile.MainActivity");
@@ -171,7 +171,7 @@ public class BaseSetup  {
         if (driver != null){
             driver.quit();
             System.out.println("Driver quit");
-            service.stop();
+//            service.stop();
             this.deviceApi.releaseDevice(this.deviceSerial);
             System.out.println("Device Has been released");
     }

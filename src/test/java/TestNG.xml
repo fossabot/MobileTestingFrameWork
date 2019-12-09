@@ -9,7 +9,7 @@
         <parameter name="udid" value="RF8M82EDL8Y"/>
         <parameter name="deviceId" value="0.0.0.0:8090"/>
         <parameter name="platformVersion" value="9"/>
-        <parameter name="URL_" value="127.0.0.1"/>
+        <parameter name="URL_" value="mdf"/>
         <parameter name="Sport" value="4723"/>
         <parameter name="bootStrap" value="100"/>
         <parameter name="sysPort" value="8200"/>

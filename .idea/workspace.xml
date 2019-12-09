@@ -2,13 +2,116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae6baa95-64fb-436f-9d72-67477a04062c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Configuration/BaseSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/sfd.apk" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sfd.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/LandingPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/04545d68-402c-4b67-b5b5-a56b08f65f25-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/05097b53-80fd-4c66-9d01-1e20c3fa545d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/0f3e3f8b-8780-4b1d-b85c-8246df632869-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/13b837ac-34f1-4555-9835-55d182ed9a48-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/21db7eb6-9c24-412b-9867-10bbd5aab94f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/22c5d0f0-8ffa-4ba6-94a4-8e7d09bbbe8b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/25c6dae4-3959-4183-93db-2b34dbad9ec9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/290dccbf-614b-40aa-957c-10ca1771429d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/29c4f643-6130-42fc-92f6-386d39adf29c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/34ee277c-5d3e-4b67-8885-7e57c5fa50dc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/35d00de3-0ad1-42c9-88e0-9f08c58867ab-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3a832a94-54f9-4717-960f-0c234c5a7dc5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3af0fcbb-4c3e-49a0-ba68-bb4946ead9e3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3c6ebb18-2a49-4f2f-8e28-bd526c427170-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3d5ef380-0786-4b7f-a3a6-87192062c137-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/42166883-6de7-4546-9c88-7ab78f54f51a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4729fb8b-a22a-45ea-b741-e4844e3ed6a0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/47cc7414-4221-4466-9968-f5e48c8a5b68-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/49424563-7b72-4daf-a429-30de9b90bfbc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4b8f7941-a6d3-4e09-aa06-70bb9afb4adc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4b993be3-8498-41d9-9c79-a0e5ce003345-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4cf6e1b6-d071-4a2c-9ca9-31d652c23d04-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/514e6b79-1181-47ec-a31c-cb530c31a5ea-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/57311ccb-84d3-4770-a3c6-484e30e74dc0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5c747cef-b391-4e87-b390-f7a8d11140a7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5da53bb0-0f07-4281-b23f-e24e7f2c3779-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6167210d-6ae7-460f-975f-39842e1f31d4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6270e5dc-a680-4093-8449-63c85347291e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/62c6c331-e792-454a-aea5-695089dfcc80-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/63d0fc59-3ffe-44fe-82a6-73511a2bf3a5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/651860be-d6cb-48fe-8273-86990072fdbd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/65a4cc41-9a74-41c2-aa8e-2554b7151a17-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/69f2eca9-4ca7-404e-9e18-80985cf9a383-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6db91a51-0012-40c4-b7ff-1a8fe66fa828-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6e34d736-8677-44e5-b8cf-9cb29446fd2c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/74b3e79a-7d89-431e-a266-09d7929e1dcc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/87c7a8e3-3507-4aeb-8e55-c2905655aaeb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8ab08369-3acc-4634-99dc-28315373ef4b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8e285462-ce56-4596-ac30-a6d27d9aa7f7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8fc27256-1da4-4f60-acfc-29696b6cdfd0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/90635476-b08c-47ec-afec-67c8b0c10d8f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9596ccd8-6d76-4c23-981b-8a06a428f11e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9598627d-c1c3-490b-8a71-cf5125dacad2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/965ced52-45fe-46f5-be91-846476b42e86-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9eb9b7e8-27d6-4632-9dc9-778245a32546-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a04767d7-9976-4f2c-bd05-7a6501b998fe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a081b3fc-f6d7-4c55-a5df-8e47fbf5ef31-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a25a32bd-ca26-46fd-b184-830430793033-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a5b8f0f0-3fdd-4795-866b-458a772166ba-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a6e4063d-c289-460d-b690-d01935758cf2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a7314d49-27c5-426d-9837-3af3c8962f9c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a79f8862-fe9f-4984-ac99-cb24444806fd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/af267f4b-722b-4a45-8340-18285193cd86-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/af99681d-72b2-4469-9095-547e72c21d31-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b4774ecf-566d-474e-a813-1f2da0db5613-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b9980e3e-77c2-4893-a89d-962ac6daa800-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/b9e2e437-6b92-4227-9299-739617c9f1bc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/bc097d7a-ffde-4009-aded-a799c6002fab-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/bec3900a-ad1c-4739-a971-77fe96ae47a3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c129e4a4-f040-49c4-bf93-1024e2663185-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c7550227-82ec-45a0-b2fc-f77f6b753161-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cba6ddc9-1266-47ac-98f5-362a49e684cd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ccae22db-4f9e-46af-9006-9932911fe032-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cdbe4470-db5b-4a2a-874d-e522b4311905-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d1c60968-6bb9-44bb-bbd6-77c81bf96ae2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d4f1ba48-3660-4762-9e3e-82dc10b8ac26-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d9322f49-6ae8-4413-aef7-8934df7599ea-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/dc82d1cf-2a81-41aa-9334-ed804c78fa5a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/dcbd0a6c-3fe8-48ae-97cf-6b65817d7bdc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/df231af3-7871-4484-98c7-4870fcdb1a53-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e034e6f1-52ee-439c-91e8-42c304f2fd0e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e4b321d6-5d93-45b6-bd01-1de13b84bd50-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e7412432-c4e0-42a0-93d3-275d5a505b39-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/eab7ceb6-283b-47dc-9bcd-18a01bf4dbba-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ee49918f-464d-4a63-b471-a0638bd03495-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f3b6c04a-4af5-43f3-9488-603040329c38-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f663efd5-0e34-497a-9fda-eafa0e83cf08-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fde42537-9415-4156-bd13-cf9e9be43470-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Configuration/BaseSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Configuration/BaseSetup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Default Suite/SM-N975F.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Default Suite/SM-N975F.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Default Suite/SM-N975F.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Default Suite/SM-N975F.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Default Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Tests.LandingPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Tests.LandingPageTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Default Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/LandingPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/LandingPageTest.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,10 +146,15 @@
   </component>
   <component name="ProjectId" id="1RpWer7nf4NFG1uXfNLYxVfzCio" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/sdk" />
+    <property name="android.sdk.path" value="$ANDROID_HOME$" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560527640248" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
@@ -71,23 +179,11 @@
       <recent name="C:\Users\amrka\IdeaProjects\MobileTestingFrameWork\Reports\allure-results" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="ExecuteFrameWork" type="TestNG">
       <module name="MobileTestingFrameWork" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="/usr/lib/jvm/jdk1.8.0_221/jre" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_231\jre" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestNG.xml" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -103,6 +199,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -171,6 +279,8 @@
       <workItem from="1575815851424" duration="7326000" />
       <workItem from="1575832667592" duration="511000" />
       <workItem from="1575835122893" duration="3165000" />
+      <workItem from="1575887070106" duration="429000" />
+      <workItem from="1575887512882" duration="2704000" />
     </task>
     <servers />
   </component>
@@ -189,5 +299,35 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="-882" key="#Configure_Path_Variables" timestamp="1575886635547">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="552" y="-882" key="#Configure_Path_Variables/0.0.1536.834/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1575886635547" />
+    <state x="414" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575886457734">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="414" y="-886" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1575886457734" />
+    <state x="808" y="-652" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1575886346753">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="808" y="-652" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.834/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1575886346753" />
+    <state width="914" height="269" key="GridCell.Tab.0.bottom" timestamp="1575888671323">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="914" height="269" key="GridCell.Tab.0.bottom/0.0.1536.834/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1575888671323" />
+    <state width="914" height="269" key="GridCell.Tab.0.center" timestamp="1575888671323">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="914" height="269" key="GridCell.Tab.0.center/0.0.1536.834/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1575888671323" />
+    <state width="914" height="269" key="GridCell.Tab.0.left" timestamp="1575888671323">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="914" height="269" key="GridCell.Tab.0.left/0.0.1536.834/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1575888671323" />
+    <state width="914" height="269" key="GridCell.Tab.0.right" timestamp="1575888671323">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="914" height="269" key="GridCell.Tab.0.right/0.0.1536.834/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1575888671323" />
   </component>
 </project>

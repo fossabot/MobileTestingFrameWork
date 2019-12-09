@@ -1,7 +1,7 @@
-MdfService/MDFService.class
-Configuration/BaseSetup.class
-MdfService/DeviceApi.class
-Pages/HomePage.class
-Configuration/Arg.class
-Configuration/ThreadLocalDriver.class
-Pages/LandingPage.class
+Configuration\ThreadLocalDriver.class
+MdfService\MDFService.class
+Pages\LandingPage.class
+MdfService\DeviceApi.class
+Configuration\BaseSetup.class
+Pages\HomePage.class
+Configuration\Arg.class

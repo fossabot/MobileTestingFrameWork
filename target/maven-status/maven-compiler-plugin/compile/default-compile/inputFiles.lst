@@ -1,8 +1,8 @@
-/media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork/src/main/java/MdfService/MDFService.java
-/media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork/src/main/java/Pages/LandingPage.java
-/media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork/src/main/java/Configuration/GridHub.java
-/media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork/src/main/java/MdfService/DeviceApi.java
-/media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork/src/main/java/Pages/HomePage.java
-/media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork/src/main/java/Configuration/ThreadLocalDriver.java
-/media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork/src/main/java/Configuration/Arg.java
-/media/amrka/01D59424710AE2D0/Practices/Appium/MobileTestingFrameWork/src/main/java/Configuration/BaseSetup.java
+C:\Users\amrka\Desktop\Mobile Automation Test\MobileTestingFrameWork\src\main\java\Configuration\Arg.java
+C:\Users\amrka\Desktop\Mobile Automation Test\MobileTestingFrameWork\src\main\java\Pages\LandingPage.java
+C:\Users\amrka\Desktop\Mobile Automation Test\MobileTestingFrameWork\src\main\java\Configuration\BaseSetup.java
+C:\Users\amrka\Desktop\Mobile Automation Test\MobileTestingFrameWork\src\main\java\Configuration\GridHub.java
+C:\Users\amrka\Desktop\Mobile Automation Test\MobileTestingFrameWork\src\main\java\Pages\HomePage.java
+C:\Users\amrka\Desktop\Mobile Automation Test\MobileTestingFrameWork\src\main\java\MdfService\MDFService.java
+C:\Users\amrka\Desktop\Mobile Automation Test\MobileTestingFrameWork\src\main\java\Configuration\ThreadLocalDriver.java
+C:\Users\amrka\Desktop\Mobile Automation Test\MobileTestingFrameWork\src\main\java\MdfService\DeviceApi.java
